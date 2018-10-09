@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfResource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfResource"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <UniformGrid Rows="8" Columns="5">
+        <Button Content="默认按钮" />
+        <Button Content="自定义按钮" Style="{StaticResource SignalButton}"/>
+    </UniformGrid>
+</Window>

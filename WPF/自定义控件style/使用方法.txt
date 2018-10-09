@@ -1,0 +1,40 @@
+1、新建Resource文件夹
+2、在文件夹中添加资源词典如button.xaml
+3、写style代码
+4、在app.xaml中引用资源文件
+5、使用控件style
+
+///资源文件的引用
+在app.xmal中引用如下
+<Application x:Class="Maxwell.LaserCutter.TurnTable.Gui.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Maxwell.LaserCutter.TurnTable.Gui"
+             StartupUri="Windows/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resource/TabItemNoHeader.xaml"/>
+                <ResourceDictionary Source="/Resource/RadioButton.xaml"/>
+                <ResourceDictionary Source="/Resource/ToggleButton.xaml"/>
+                <ResourceDictionary Source="/Resource/Button.xaml"/>
+                <ResourceDictionary Source="/Resource/RepeatButton.xaml"/>
+                <ResourceDictionary Source="/Resource/DataGrid.xaml"/>
+                <ResourceDictionary Source="/Resource/TextBlock.xaml"/>
+                <ResourceDictionary Source="/Maxwell.LaserCutter.Common;component/Resource/Thumb.xaml"/>
+                <ResourceDictionary Source="/Maxwell.LaserCutter.Common;component/Resource/DesignerItem.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
+///控件style用例 
+<ToggleButton FontSize="25" Name="btn_HandMovement" Content="手动" Background="Yellow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="2" Style="{StaticResource ToggleButton}">
+ </ToggleButton>
+
+<Button Name="btn_Hand_TF_Hook2_Up" FontSize="16" Content="吊钩气缸2前进" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="2" Style="{StaticResource SignalButton}">
+</Button>
+
+
+///关键点
+ Style="{StaticResource SignalButton}"
