@@ -1,0 +1,16 @@
+D:\csCode\WpfBindingConvert\WpfBindingConvert\bin\Debug\WpfBindingConvert.exe.config
+D:\csCode\WpfBindingConvert\WpfBindingConvert\bin\Debug\WpfBindingConvert.exe
+D:\csCode\WpfBindingConvert\WpfBindingConvert\bin\Debug\WpfBindingConvert.pdb
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.csprojAssemblyReference.cache
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\MainWindow.g.cs
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\App.g.cs
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert_MarkupCompile.cache
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert_MarkupCompile.lref
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\MainWindow.baml
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.g.resources
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.Properties.Resources.resources
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.csproj.GenerateResource.cache
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.csproj.CoreCompileInputs.cache
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.exe
+D:\csCode\WpfBindingConvert\WpfBindingConvert\obj\Debug\WpfBindingConvert.pdb
