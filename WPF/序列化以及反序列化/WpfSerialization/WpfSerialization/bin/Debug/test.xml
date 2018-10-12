@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<testItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <age>23</age>
+  <weight>150</weight>
+  <name>wang</name>
+  <school>南邮</school>
+  <intarr>
+    <int>1</int>
+    <int>2</int>
+    <int>3</int>
+    <int>4</int>
+    <int>5</int>
+  </intarr>
+</testItem>

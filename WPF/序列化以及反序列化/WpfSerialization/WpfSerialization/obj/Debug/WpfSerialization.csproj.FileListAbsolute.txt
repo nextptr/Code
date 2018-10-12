@@ -1,0 +1,15 @@
+D:\csCode\WpfSerialization\WpfSerialization\bin\Debug\WpfSerialization.exe.config
+D:\csCode\WpfSerialization\WpfSerialization\bin\Debug\WpfSerialization.exe
+D:\csCode\WpfSerialization\WpfSerialization\bin\Debug\WpfSerialization.pdb
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.csprojAssemblyReference.cache
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\MainWindow.g.cs
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\App.g.cs
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization_MarkupCompile.cache
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization_MarkupCompile.lref
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\MainWindow.baml
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.g.resources
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.Properties.Resources.resources
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.csproj.GenerateResource.cache
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.csproj.CoreCompileInputs.cache
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.exe
+D:\csCode\WpfSerialization\WpfSerialization\obj\Debug\WpfSerialization.pdb
