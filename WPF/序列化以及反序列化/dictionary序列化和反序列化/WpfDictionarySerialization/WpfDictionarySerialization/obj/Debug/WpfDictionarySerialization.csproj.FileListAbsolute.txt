@@ -1,0 +1,15 @@
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\bin\Debug\WpfDictionarySerialization.exe.config
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\bin\Debug\WpfDictionarySerialization.exe
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\bin\Debug\WpfDictionarySerialization.pdb
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.csprojAssemblyReference.cache
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\MainWindow.g.cs
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\App.g.cs
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization_MarkupCompile.cache
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization_MarkupCompile.lref
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\MainWindow.baml
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.g.resources
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.Properties.Resources.resources
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.csproj.GenerateResource.cache
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.csproj.CoreCompileInputs.cache
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.exe
+D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\WpfDictionarySerialization.pdb
