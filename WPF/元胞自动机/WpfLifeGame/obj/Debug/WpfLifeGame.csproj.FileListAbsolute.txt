@@ -1,0 +1,16 @@
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.csprojAssemblyReference.cache
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\MainWindow.g.cs
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\App.g.cs
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame_MarkupCompile.cache
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame_MarkupCompile.lref
+D:\csCode\WpfLifeGame\WpfLifeGame\bin\Debug\WpfLifeGame.exe.config
+D:\csCode\WpfLifeGame\WpfLifeGame\bin\Debug\WpfLifeGame.exe
+D:\csCode\WpfLifeGame\WpfLifeGame\bin\Debug\WpfLifeGame.pdb
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\MainWindow.baml
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.g.resources
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.Properties.Resources.resources
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.csproj.GenerateResource.cache
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.csproj.CoreCompileInputs.cache
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.exe
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\WpfLifeGame.pdb
+D:\csCode\WpfLifeGame\WpfLifeGame\obj\Debug\Resource\ToggleButton.baml
