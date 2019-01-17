@@ -1,0 +1,14 @@
+labIpAdd
+labPort
+btnConnect
+
+
+labUsername
+btnRegister
+
+ListViwe
+btnClean
+
+
+txtSendMessage
+btnSend

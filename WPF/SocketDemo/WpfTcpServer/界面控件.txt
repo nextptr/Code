@@ -1,0 +1,8 @@
+labIpAdd        //ip地址
+labPort         //端口号
+labUserCount    //用户数量
+txtSendMessage  //发送数据
+
+btnConnect      //监听按钮
+btnSend         //发送按钮
+btnClean        //清屏按钮

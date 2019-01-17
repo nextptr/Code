@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\bin\x64\Debug\Maxwell.LaserCutter.Sockets.dll
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\bin\x64\Debug\Maxwell.LaserCutter.Sockets.pdb
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\obj\x64\Debug\Maxwell.LaserCutter.Sockets.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\obj\x64\Debug\Maxwell.LaserCutter.Sockets.dll
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\obj\x64\Debug\Maxwell.LaserCutter.Sockets.pdb
+C:\Users\Administrator\Desktop\MX175\Maxwell.LaserCutter.Sockets\obj\x64\Debug\Maxwell.LaserCutter.Sockets.csprojResolveAssemblyReference.cache
