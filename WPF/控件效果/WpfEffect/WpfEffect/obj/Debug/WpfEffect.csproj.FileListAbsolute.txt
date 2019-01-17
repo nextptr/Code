@@ -1,0 +1,15 @@
+D:\CsTest\WpfEffect\WpfEffect\bin\Debug\WpfEffect.exe.config
+D:\CsTest\WpfEffect\WpfEffect\bin\Debug\WpfEffect.exe
+D:\CsTest\WpfEffect\WpfEffect\bin\Debug\WpfEffect.pdb
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.csprojAssemblyReference.cache
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\MainWindow.g.cs
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\App.g.cs
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect_MarkupCompile.cache
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect_MarkupCompile.lref
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\MainWindow.baml
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.g.resources
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.Properties.Resources.resources
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.csproj.GenerateResource.cache
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.csproj.CoreCompileInputs.cache
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.exe
+D:\CsTest\WpfEffect\WpfEffect\obj\Debug\WpfEffect.pdb

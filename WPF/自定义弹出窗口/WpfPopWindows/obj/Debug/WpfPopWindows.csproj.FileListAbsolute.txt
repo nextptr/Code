@@ -1,0 +1,17 @@
+D:\csCode\WpfPopWindows\WpfPopWindows\bin\Debug\WpfPopWindows.exe.config
+D:\csCode\WpfPopWindows\WpfPopWindows\bin\Debug\WpfPopWindows.exe
+D:\csCode\WpfPopWindows\WpfPopWindows\bin\Debug\WpfPopWindows.pdb
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.csprojAssemblyReference.cache
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\MainWindow.g.cs
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\PopWindow.g.cs
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\App.g.cs
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows_MarkupCompile.cache
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows_MarkupCompile.lref
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\MainWindow.baml
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\PopWindow.baml
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.g.resources
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.Properties.Resources.resources
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.csproj.GenerateResource.cache
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.csproj.CoreCompileInputs.cache
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.exe
+D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.pdb

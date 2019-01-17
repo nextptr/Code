@@ -13,5 +13,28 @@ namespace WpfLifeGame
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            _init();
+            base.OnStartup(e);
+            //MainWindow mw = new MainWindow();
+            //mw.Show();
+        }
+        protected override void OnExit(ExitEventArgs e)
+        {
+            _uninit();
+            base.OnExit(e);
+            System.Environment.Exit(0);
+        }
+
+        protected void _init()
+        {
+            CellsParameter.Instance.ReadParameter();
+        }
+
+        protected void _uninit()
+        {
+            CellsParameter.Instance.WriteParameter();
+        }
     }
 }

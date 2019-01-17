@@ -1,0 +1,15 @@
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.exe.config
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.exe
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.pdb
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csprojAssemblyReference.cache
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\MainWindow.g.cs
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\App.g.cs
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap_MarkupCompile.cache
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap_MarkupCompile.lref
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\MainWindow.baml
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.g.resources
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.Properties.Resources.resources
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csproj.GenerateResource.cache
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csproj.CoreCompileInputs.cache
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.exe
+D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.pdb

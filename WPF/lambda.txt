@@ -1,0 +1,5 @@
+ Thread t = new Thread(() =>
+                {//匿名函数
+                    SyncSingleAxisAbsolutePostion(rm, pos, roundoffset);
+                });
+                t.Start();
