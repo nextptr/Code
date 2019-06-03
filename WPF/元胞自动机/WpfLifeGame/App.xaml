@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:WpfLifeGame"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resource/ToggleButton.xaml"/>
+                <ResourceDictionary Source="/Resource/YellowToggleButton.xaml"/>
+                <ResourceDictionary Source="/Resource/DataGrid.xaml"/>
+                <ResourceDictionary Source="/Resource/RadioButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

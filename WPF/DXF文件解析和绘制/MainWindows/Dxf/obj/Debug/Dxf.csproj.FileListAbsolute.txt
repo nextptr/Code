@@ -1,0 +1,6 @@
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Dxf.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Dxf.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.csprojAssemblyReference.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.pdb

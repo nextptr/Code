@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\代码库\WPF\元胞自动机\WpfLifeGame\App.xaml
-3745297030
+62050307143
 
-111983677490
+14-1074549632
 131569487696
-MainWindow.xaml;Resource\RadioButton.xaml;Resource\ToggleButton.xaml;
+CellBase\CellsWindow.xaml;MainWindow.xaml;Resource\DataGrid.xaml;Resource\RadioButton.xaml;Resource\ToggleButton.xaml;Resource\YellowToggleButton.xaml;
 
-False
+True
 

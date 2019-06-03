@@ -4,59 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfLifeGame"
+        xmlns:cellbase="clr-namespace:WpfLifeGame.CellBase"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="lifeGame" Height="1000" Width="1140">
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Resource/ToggleButton.xaml"/>
-                <ResourceDictionary Source="/Resource/RadioButton.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
+        Title="lifeGame" Height="985" Width="1200">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition Width="170"/>
-        </Grid.ColumnDefinitions>
-        <Border Grid.Column="0" BorderThickness="5" BorderBrush="Gold">
-            <Grid Margin="1,5,0,0" Name="gridboard"/>
-        </Border>
-        <Border Name="btnborde" Grid.Column="1" BorderThickness="5" BorderBrush="Gold">
-            <StackPanel Margin="3" Orientation="Vertical">
-                <Button Name="btn_Start_stop" Content="启动" Height="50" Margin="3" />
-                <UniformGrid Columns="2" Height="40" >
-                    <TextBox Name="txtStepBox"  VerticalContentAlignment="Center" Margin="2"/>
-                    <Button  Name="btn_Step" Content="步进" Margin="2"/>
-                </UniformGrid>
-                <ComboBox Height="35" Name="cbx_Model" Margin="3">
-                    <ComboBoxItem Tag="1" Content="间隔1"/>
-                    <ComboBoxItem Tag="2" Content="间隔2"/>
-                    <ComboBoxItem Tag="3" Content="间隔3"/>
-                    <ComboBoxItem Tag="4" Content="R五联骨牌"/>
-                    <ComboBoxItem Tag="5" Content="六联骨牌"/>
-                    <ComboBoxItem Tag="6" Content="六联楼梯"/>
-                    <ComboBoxItem Tag="7" Content="起重机1"/>
-                    <ComboBoxItem Tag="8" Content="起重机2"/>
-                    <ComboBoxItem Tag="9" Content="起重机3"/>
-                    <ComboBoxItem Tag="10" Content="水龙头1"/>
-                    <ComboBoxItem Tag="11" Content="水龙头2"/>
-                    <ComboBoxItem Tag="12" Content="水龙头3"/>
-                    <ComboBoxItem Tag="13" Content="站着的人1"/>
-                    <ComboBoxItem Tag="14" Content="站着的人2"/>
-                    <ComboBoxItem Tag="15" Content="站着的人3"/>
-                </ComboBox>
-                <UniformGrid Columns="2" Height="40" >
-                    <TextBox Name="txtSaveName"  VerticalContentAlignment="Center" Margin="2"/>
-                    <Button  Name="btn_Save" Content="保存当前图" Margin="2"/>
-                </UniformGrid>
-                <UniformGrid Columns="2" Height="40" >
-                    <ComboBox Name="cbx_SaveCells" VerticalContentAlignment="Center" Margin="2"/>
-                    <Button  Name="btn_Delete" Content="删除选中图" Margin="2"/>
-                </UniformGrid>
-                <TextBox Name="showTxt" Text="123"/>
-            </StackPanel>
-        </Border>
+        <cellbase:CellsWindow x:Name="cells_view"/>
     </Grid>
 </Window>

@@ -1,0 +1,15 @@
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\bin\Debug\WpfSqliteDemo.exe.config
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\bin\Debug\WpfSqliteDemo.exe
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\bin\Debug\WpfSqliteDemo.pdb
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.csprojAssemblyReference.cache
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\App.g.cs
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo_MarkupCompile.cache
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo_MarkupCompile.lref
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\MainWindow.baml
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.g.resources
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.Properties.Resources.resources
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.csproj.GenerateResource.cache
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.exe
+D:\代码库\WPF\Sqlite数据库\WpfSqliteDemo\WpfSqliteDemo\obj\Debug\WpfSqliteDemo.pdb

@@ -1,0 +1,47 @@
+定义：
+每一个 SQLite 数据库都有一个sqlite_master的系统表。该表记录该数据库中所有的表、索引、视图、和触发器信息，表结构如下：
+CREATE TABLE sqlite_master ( 
+type TEXT, 
+name TEXT, 
+tbl_name TEXT, 
+rootpage INTEGER, 
+sql TEXT 
+); 
+
+SQLITE_MASTER 表是只读的，在创建一个SQLIte数据库的时候，该表会自动创建。不能对它使用 UPDATE、INSERT 或 DELETE。 它会被 CREATE TABLE、CREATE INDEX、DROP TABLE 和 DROP INDEX 命令自动更新。
+
+type：
+该字段记录了项目的类型，如table、index、view、trigger。
+
+name：
+该字段记录了项目的名称，如表名、索引名等。
+
+
+tbl_name：
+该字段记录所从属的表名，如索引所在的表名。对于表来说，该列就是表名本身。
+
+rootpage
+该字段记录项目在数据库页中存储的编号。对于视图和触发器，该列值为0或者NULL。
+
+
+sql：
+该字段记录原先用 CREATE TABLE 或 CREATE INDEX 语句创建该项目的SQL语句。
+
+备注：
+对于自动创建的索引（用来实现 PRIMARY KEY 或 UNIQUE 约束），sql字段为NULL，
+临时表不会出现在 SQLITE_MASTER 表中。临时表及其索引和触发器存放在另外一个叫 SQLITE_TEMP_MASTER 的表中。SQLITE_TEMP_MASTER 跟 SQLITE_MASTER 差不多， 但它只是对于创建那些临时表的应用可见。如果要获得所有表的列表， 不管是永久的还是临时的，可以使用类似下面的命令：
+
+SELECT name FROM 
+(SELECT * FROM sqlite_master UNION ALL 
+SELECT * FROM sqlite_temp_master) 
+WHERE type=’table’ 
+ORDER BY name
+
+用例：
+由于sqlite_master表存储所有的数据库项目，所以可以通过该表判断特定的表、视图或者索引是否存在。
+例如，以下语句可以判断user表是否存在。
+select count(*) from sqlite_master where name='user' and type='table'
+
+链接：
+https://blog.csdn.net/xingfeng0501/article/details/7804378
+https://blog.csdn.net/daxueba/article/details/70142870

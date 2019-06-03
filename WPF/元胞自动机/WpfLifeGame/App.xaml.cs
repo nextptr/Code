@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using WpfLifeGame.CellBase;
 
 namespace WpfLifeGame
 {
@@ -17,8 +18,6 @@ namespace WpfLifeGame
         {
             _init();
             base.OnStartup(e);
-            //MainWindow mw = new MainWindow();
-            //mw.Show();
         }
         protected override void OnExit(ExitEventArgs e)
         {
@@ -29,12 +28,11 @@ namespace WpfLifeGame
 
         protected void _init()
         {
-            CellsParameter.Instance.ReadParameter();
+            CellsParameter.Instance.Read("CellPatterns.xml");
         }
-
         protected void _uninit()
         {
-            CellsParameter.Instance.WriteParameter();
+            CellsParameter.Instance.Write("CellPatterns.xml");
         }
     }
 }

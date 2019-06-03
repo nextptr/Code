@@ -1,0 +1,7 @@
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\bin\Debug\ConsoleAppSevo.exe.config
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\bin\Debug\ConsoleAppSevo.exe
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\bin\Debug\ConsoleAppSevo.pdb
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\obj\Debug\ConsoleAppSevo.csprojAssemblyReference.cache
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\obj\Debug\ConsoleAppSevo.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\obj\Debug\ConsoleAppSevo.exe
+C:\Users\Matthew\Desktop\UDP通信\ConsoleAppSevo\ConsoleAppSevo\obj\Debug\ConsoleAppSevo.pdb

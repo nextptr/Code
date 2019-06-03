@@ -27,5 +27,7 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="UseLayoutRounding" Value="true" />
     </Style>
 </ResourceDictionary>
