@@ -1,0 +1,23 @@
+D:\My Documents\Visual Studio 2010\Projects\WinForm\bin\Debug\WinForm.exe.config
+D:\My Documents\Visual Studio 2010\Projects\WinForm\bin\Debug\WinForm.exe
+D:\My Documents\Visual Studio 2010\Projects\WinForm\bin\Debug\WinForm.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\WinForm.Form1.resources
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\WinForm.Properties.Resources.resources
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\WinForm.exe
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\WinForm.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\WinForm\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example2\WinForm\bin\Debug\WinForm.exe.config
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example2\WinForm\obj\x86\Debug\WinForm.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example2\WinForm\obj\x86\Debug\WinForm.pdb
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\bin\Debug\WinForm.exe.config
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\bin\Debug\WinForm.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\bin\Debug\WinForm.pdb
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.Form1.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.Properties.Resources.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.csproj.GenerateResource.Cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example2\WinForm\obj\x86\Debug\WinForm.pdb

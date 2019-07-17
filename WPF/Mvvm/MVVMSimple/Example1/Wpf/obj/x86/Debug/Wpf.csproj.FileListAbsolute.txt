@@ -1,0 +1,33 @@
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\MainWindow.baml
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\MainWindow.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\App.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf_MarkupCompile.cache
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf.g.resources
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf.Properties.Resources.resources
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\bin\Debug\Wpf.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\bin\Debug\Wpf.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf_MarkupCompile.lref
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Wpf\obj\x86\Debug\Wpf.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example1\Wpf\obj\x86\Debug\Wpf.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example1\Wpf\obj\x86\Debug\Wpf.pdb
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\bin\Debug\Wpf.exe.config
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\bin\Debug\Wpf.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\bin\Debug\Wpf.pdb
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\MainWindow.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\App.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf_MarkupCompile.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf_MarkupCompile.lref
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\MainWindow.baml
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.g.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.Properties.Resources.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.csproj.GenerateResource.Cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example1\Wpf\obj\x86\Debug\Wpf.pdb

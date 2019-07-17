@@ -54,9 +54,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="DxfWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="DxfManager.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -66,8 +66,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DxfWindow.xaml.cs">
-      <DependentUpon>DxfWindow.xaml</DependentUpon>
+    <Compile Include="DxfManager.xaml.cs">
+      <DependentUpon>DxfManager.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -149,8 +149,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{60072599-DC63-44D5-9DEC-5AE09514656D}</Project>
+    <ProjectReference Include="..\..\..\Common\Common\Common.csproj">
+      <Project>{6929ADF7-96F4-46BB-9392-AFCA7CAB79DC}</Project>
       <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Dxf\Dxf.csproj">

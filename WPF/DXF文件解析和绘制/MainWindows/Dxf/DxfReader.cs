@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -23,13 +24,33 @@ namespace Dxf
         }
         private FileStream fs;
         private StreamReader sr;
+        private List<PATH> _pathList = null;
         public ArrayList LayerList = new ArrayList();
         public ArrayList LineList = new ArrayList();
         public ArrayList ArcList = new ArrayList();
         public ArrayList EllipseList = new ArrayList();
         public ArrayList LwopolylineList = new ArrayList();
         public ArrayList SplineList = new ArrayList();
-        public ArrayList PathList = new ArrayList();
+        public ArrayList PathArrayList = new ArrayList();
+        public List<PATH> PathList
+        {
+            get
+            {
+                if (_pathList == null)
+                {
+                    _pathList = new List<PATH>();
+                }
+                else
+                {
+                    _pathList.Clear();
+                }
+                foreach (var th in PathArrayList)
+                {
+                    _pathList.Add(((PATH)th).Clon());
+                }
+                return _pathList;
+            }
+        }
 
         private string[] str = new string[2];
         private int count;
@@ -54,7 +75,7 @@ namespace Dxf
             EllipseList.Clear();
             LwopolylineList.Clear();
             SplineList.Clear();
-            PathList.Clear();
+            PathArrayList.Clear();
             fs = new FileStream(path, FileMode.Open, FileAccess.Read);
             sr = new StreamReader(fs);
             while (sr.Peek() != -1)
@@ -195,7 +216,7 @@ namespace Dxf
                         th.StartY = Math.Round(pth.throughPoints[0].Y, 7);
                         th.EndX = Math.Round(pth.throughPoints[3].X, 7);
                         th.EndY = Math.Round(pth.throughPoints[3].Y, 7);
-                        PathList.Add(th);
+                        PathArrayList.Add(th);
                     }
                 }
             }
@@ -210,7 +231,7 @@ namespace Dxf
                     newPath.StartY = Math.Round(pth.StartY, 7);
                     newPath.EndX = Math.Round(pth.EndX, 7);
                     newPath.EndY = Math.Round(pth.EndY, 7);
-                    PathList.Add(newPath);
+                    PathArrayList.Add(newPath);
                 }
             }
             if (ArcList.Count > 0)
@@ -219,25 +240,19 @@ namespace Dxf
                 {
                     PATH pth = path as PATH;
                     PATH newPath = new PATH();
-                    if (pth.StartAngle == 0.0 &&
-                       pth.EndAngle == 0.0 &&
-                       pth.StartX == 0.0 &&
-                       pth.StartY == 0.0 &&
-                       pth.EndX == 0.0 &&
-                       pth.EndY == 0.0
-                       )
+                    if (pth.StartAngle == 0.0 && pth.EndAngle == 0.0)
                     { //圆,暂时不做处理
-                        //newPath.ePathType = EPathType.Arc;
-                        //newPath.StartAngle = 0;
-                        //newPath.EndAngle = 360;
-                        //newPath.CenterX = pth.CenterX;
-                        //newPath.CenterY = pth.CenterY;
-                        //newPath.StartX = pth.CenterX; //(x-a)*(x-a)+(y-b)*(y-b)=r*r  x==a
-                        //newPath.StartY = pth.CenterY + pth.Radio; //y=r+b
-                        //newPath.EndX = newPath.StartX;
-                        //newPath.EndY = newPath.StartY;
-                        //newPath.Radio = pth.Radio;
-                        //PathList.Add(newPath);
+                        newPath.ePathType = EPathType.Circle;
+                        newPath.StartAngle = 0;
+                        newPath.EndAngle = 0;
+                        newPath.CenterX = pth.CenterX;
+                        newPath.CenterY = pth.CenterY;
+                        newPath.StartX = 0; //(x-a)*(x-a)+(y-b)*(y-b)=r*r  x==a
+                        newPath.StartY = 0; //y=r+b
+                        newPath.EndX = 0;
+                        newPath.EndY = 0;
+                        newPath.Radio = pth.Radio;
+                        PathArrayList.Add(newPath);
                     }
                     else
                     {//圆弧
@@ -251,13 +266,13 @@ namespace Dxf
                         newPath.EndX = pth.Radio * Math.Cos(pth.EndAngle * (Math.PI / 180)) + pth.CenterX;
                         newPath.EndY = pth.Radio * Math.Sin(pth.EndAngle * (Math.PI / 180)) + pth.CenterY;
                         newPath.Radio = pth.Radio;
-                        PathList.Add(newPath);
+                        PathArrayList.Add(newPath);
                     }
                 }
             }
             if (LwopolylineList.Count > 0)
             {
-                ConvertLwpolylineToPathList1();
+                ConvertLwpolylineToPathList();
             }
         }
 
@@ -432,10 +447,10 @@ namespace Dxf
                         newlw.converxity[newlw.converxity.Length - 1] = Double.Parse(str[1].Trim());
                         break;
                     case "0":
-                    {
-                        LwopolylineList.Add(newlw);
-                    }
-                    return;
+                        {
+                            LwopolylineList.Add(newlw);
+                        }
+                        return;
                 }
             }
         }
@@ -470,35 +485,131 @@ namespace Dxf
             }
         }
 
-        public void TransformToOneQuadrant(ArrayList PathList, ref List<PATH> outList, ref double max_x, ref double max_y)
+        public void PathRotateAng(List<PATH> inList, List<PATH> outList, double angle)//PATH旋转
         {
+            if (inList == null)
+            {
+                return;
+            }
+            if (outList == null)
+            {
+                outList = new List<PATH>();
+            }
+            else
+            {
+                outList.Clear();
+            }
+            foreach (PATH th in inList)
+            {
+                outList.Add(th.Rotate(angle));
+            }
+        }
+        public void PathMirrorY(List<PATH> inList, List<PATH> outList)//Y轴镜像翻转
+        {
+            if (inList == null)
+            {
+                return;
+            }
+            if (outList == null)
+            {
+                outList = new List<PATH>();
+            }
+            else
+            {
+                outList.Clear();
+            }
+            foreach (PATH pth in inList)
+            {
+                PATH path = pth.Clon();
+                if (pth.ePathType == EPathType.Arc)
+                {
+                    path.StartX = pth.EndX;
+                    path.EndX = pth.StartX;
+
+                    path.StartY = -1 * pth.EndY;
+                    path.EndY = -1 * pth.StartY;
+
+                    path.CenterY = -1 * pth.CenterY;
+                }
+                if (pth.ePathType == EPathType.Circle)
+                {
+                    path.CenterY = -1 * pth.CenterY;
+
+                    path.StartY = -1 * pth.StartY;
+                    path.EndY = -1 * pth.EndY;
+                }
+                if (pth.ePathType == EPathType.Lwpolyline)
+                {
+                    path.throughPoints.Clear();
+                    path.centerPoints.Clear();
+                    for (int i = 0; i < pth.throughPoints.Count; i++)
+                    {
+                        Point pos = new Point();
+                        pos.X = pth.throughPoints[i].X;
+                        pos.Y = -1 * pth.throughPoints[i].Y;
+                        path.throughPoints.Add(pos);
+                        Point pos2 = new Point();
+                        pos2.X = pth.centerPoints[i].X;
+                        pos2.Y = -1 * pth.centerPoints[i].Y;
+                        path.centerPoints.Add(pos2);
+                    }
+                    path.StartY = -1 * pth.StartY;
+                    path.EndY = -1 * pth.EndY;
+                }
+                if (pth.ePathType == EPathType.Line)
+                {
+                    path.StartY = -1 * pth.StartY;
+                    path.EndY = -1 * pth.EndY;
+                }
+                outList.Add(path);
+            }
+        }
+        public void TransformToOneQuadrant(List<PATH> inList, List<PATH> outList, ref double max_x, ref double max_y)//转换到第一象限
+        {
+            if (inList == null)
+            {
+                return;
+            }
+            if (outList == null)
+            {
+                outList = new List<PATH>();
+            }
+            else
+            {
+                outList.Clear();
+            }
             //找到最小值，最大值
             double min_x = 0.0;
             double min_y = 0.0;
-            for (int i = 0; i < PathList.Count; i++)
+            for (int i = 0; i < inList.Count; i++)
             {
-                if (((PATH)PathList[i]).ePathType == EPathType.Line)
+                if (inList[i].ePathType == EPathType.Line)
                 {
-                    min_x = ((PATH)PathList[i]).StartX;
-                    min_y = ((PATH)PathList[i]).StartY;
-                    max_x = ((PATH)PathList[i]).StartX;
-                    max_y = ((PATH)PathList[i]).StartY;
+                    min_x = inList[i].StartX;
+                    min_y = inList[i].StartY;
+                    max_x = inList[i].StartX;
+                    max_y = inList[i].StartY;
                     break;
                 }
-                else if (((PATH)PathList[i]).ePathType == EPathType.Lwpolyline)
+                else if (inList[i].ePathType == EPathType.Lwpolyline)
                 {
-                    min_x = ((PATH)PathList[i]).throughPoints[0].X;
-                    min_y = ((PATH)PathList[i]).throughPoints[0].Y;
-                    max_x = ((PATH)PathList[i]).throughPoints[0].X;
-                    max_y = ((PATH)PathList[i]).throughPoints[0].Y;
+                    min_x = inList[i].throughPoints[0].X;
+                    min_y = inList[i].throughPoints[0].Y;
+                    max_x = inList[i].throughPoints[0].X;
+                    max_y = inList[i].throughPoints[0].Y;
+                    break;
+                }
+                else if (inList[i].ePathType == EPathType.Circle)
+                {
+                    min_x = inList[i].CenterX;
+                    min_y = inList[i].CenterY;
+                    max_x = inList[i].CenterX;
+                    max_y = inList[i].CenterY;
                     break;
                 }
             }
-
-            PATH tmpPath;
-            foreach (var pth in PathList)
+            foreach (PATH tmpPath in inList)
             {
-                tmpPath = pth as PATH;
                 if (tmpPath.ePathType == EPathType.Line)
                 {
                     //最大值
@@ -562,9 +673,8 @@ namespace Dxf
                 }
             }
 
-            //将图像平移到第一象限
-            outList = new List<PATH>();
-            foreach (var tmp in PathList)
+            //将图像平移到第一象限           
+            foreach (var tmp in inList)
             {
                 PATH pth = new PATH();
                 pth = (PATH)tmp;
@@ -573,34 +683,10 @@ namespace Dxf
                     pth.CenterX = pth.CenterX - min_x;
                     pth.CenterY = pth.CenterY - min_y;
                 }
-                else if (pth.ePathType == EPathType.Line)
+                else if (pth.ePathType == EPathType.Circle)
                 {
-                    ////封闭环形线需要统一起点和终点,从左到右，从下到上
-                    //if (Math.Abs(pth.EndX - pth.StartX) < 0.00001)
-                    //{//垂线
-                    //    if (pth.EndY < pth.StartY)
-                    //    {
-                    //        double endy = pth.EndY;
-                    //        pth.EndY = pth.StartY;
-                    //        pth.StartY = endy;
-                    //    }
-                    //}
-                    //else if (Math.Abs(pth.EndY - pth.StartY) < 0.00001)
-                    //{//水平线
-                    //    if (pth.EndX < pth.StartX)
-                    //    {
-                    //        double endx = pth.EndX;
-                    //        pth.EndX = pth.StartX;
-                    //        pth.StartX = endx;
-                    //    }
-                    //}
-                    //else //斜线
-                    //{
-                    //    if ((pth.StartX - pth.EndX) > 0.0)
-                    //    {
-                    //        SwqpStartAndEndPoint(ref pth);
-                    //    }
-                    //}
+                    pth.CenterX = Math.Round(pth.CenterX - min_x, 7);
+                    pth.CenterY = Math.Round(pth.CenterY - min_y, 7);
                 }
                 else if (pth.ePathType == EPathType.Lwpolyline)
                 {
@@ -625,6 +711,216 @@ namespace Dxf
             max_x = max_x - min_x;
             max_y = max_y - min_y;
         }
+        public void FindMarkPoint(List<PATH> lst, out Point mak1, out Point mak2)//寻找mark点
+        {
+            //十字mark点
+            mak1 = new Point(0.0, 0.0);
+            mak2 = new Point(0.0, 0.0);
+            List<Point> Points = new List<Point>();
+            List<PATH> srcList = new List<PATH>();
+            //找出十字线
+            foreach (PATH th in lst)
+            {
+                if (th.ePathType == EPathType.Line) //长度小于2毫米的线为mark线
+                {
+                    if (Math.Abs(th.PathLength - 2.0) < 0.000001)
+                    {
+                        Point pos = new Point();
+                        pos.X = (th.StartX + th.EndX) / 2;
+                        pos.Y = (th.StartY + th.EndY) / 2;
+                        Points.Add(pos);
+
+                        srcList.Add(th);
+                    }
+                    else
+                    {
+                        srcList.Add(th);
+                    }
+                }
+                else
+                {
+                    srcList.Add(th);
+                }
+            }
+            lst.Clear();
+            foreach (PATH th in srcList)
+            {
+                lst.Add(th);
+            }
+            //判断mark点
+            if (Points.Count != 4)
+            {
+                return;
+            }
+            double v1 = ComMath.PointDistance(Points[0], Points[1]);
+            double v2 = ComMath.PointDistance(Points[0], Points[2]);
+            double v3 = ComMath.PointDistance(Points[0], Points[3]);
+
+            Point tmp1 = new Point();
+            Point tmp2 = new Point();
+
+            if (v1 < 1)
+            {
+                tmp1 = Points[0];
+                tmp2 = Points[2];
+            }
+            else if (v2 < 1)
+            {
+                tmp1 = Points[0];
+                tmp2 = Points[1];
+            }
+
+
+            if (Math.Abs(tmp1.X - tmp1.X) < Math.Abs(tmp2.Y - tmp2.Y)) //竖直排列mark点
+            {
+                if (tmp1.Y > tmp2.Y)
+                {
+                    mak1 = tmp2;
+                    mak2 = tmp1;
+                }
+                else
+                {
+                    mak1 = tmp1;
+                    mak2 = tmp2;
+                }
+            }
+            else  //水平排列mark点
+            {
+                if (tmp1.X > tmp2.X)
+                {
+                    mak1 = tmp2;
+                    mak2 = tmp1;
+                }
+                else
+                {
+                    mak1 = tmp1;
+                    mak2 = tmp2;
+                }
+            }
+
+
+            //圆mark点
+            //mak1 = new Point(0.0, 0.0);
+            //mak2 = new Point(0.0, 0.0);
+            //Dictionary<double,double> points = new Dictionary<double, double>();
+            //foreach (PATH th in lst)
+            //{
+            //    if (th.ePathType == EPathType.Circle)
+            //    {
+            //        if (th.Radio <= 5)
+            //        {
+            //            points[th.CenterX] = th.CenterY;
+            //        }
+            //    }
+            //}
+
+            //List<double> tmplist = points.Keys.ToList(); //x参数排序
+            //tmplist.Sort();
+            //foreach (double xtmp in tmplist)
+            //{
+            //    mak1.X = xtmp;
+            //    mak1.Y = points[xtmp];
+            //}
+        }
+
+        public void FindAbsoMaxVal(List<PATH> inList, out double Max_x, out double Max_y)
+        {
+            double min_x = 0.0;
+            double min_y = 0.0;
+            Max_x = 0.0;
+            Max_y = 0.0;
+            for (int i = 0; i < inList.Count; i++)
+            {
+                if (inList[i].ePathType == EPathType.Line)
+                {
+                    min_x = inList[i].StartX;
+                    min_y = inList[i].StartY;
+                    Max_x = inList[i].StartX;
+                    Max_y = inList[i].StartY;
+                    break;
+                }
+                else if (inList[i].ePathType == EPathType.Lwpolyline)
+                {
+                    min_x = inList[i].throughPoints[0].X;
+                    min_y = inList[i].throughPoints[0].Y;
+                    Max_x = inList[i].throughPoints[0].X;
+                    Max_y = inList[i].throughPoints[0].Y;
+                    break;
+                }
+                else if (inList[i].ePathType == EPathType.Circle)
+                {
+                    min_x = inList[i].CenterX;
+                    min_y = inList[i].CenterY;
+                    Max_x = inList[i].CenterX;
+                    Max_y = inList[i].CenterY;
+                    break;
+                }
+            }
+            foreach (PATH tmpPath in inList)
+            {
+                if (tmpPath.ePathType == EPathType.Line)
+                {
+                    //最大值
+                    if (tmpPath.StartX < min_x)
+                    {
+                        min_x = tmpPath.StartX;
+                    }
+                    if (tmpPath.StartY < min_y)
+                    {
+                        min_y = tmpPath.StartY;
+                    }
+                    if (tmpPath.EndX < min_x)
+                    {
+                        min_x = tmpPath.EndX;
+                    }
+                    if (tmpPath.EndY < min_y)
+                    {
+                        min_y = tmpPath.EndY;
+                    }
+                    //最小值
+                    if (tmpPath.StartX > Max_x)
+                    {
+                        Max_x = tmpPath.StartX;
+                    }
+                    if (tmpPath.StartY > Max_y)
+                    {
+                        Max_y = tmpPath.StartY;
+                    }
+                    if (tmpPath.EndX > Max_x)
+                    {
+                        Max_x = tmpPath.EndX;
+                    }
+                    if (tmpPath.EndY > Max_y)
+                    {
+                        Max_y = tmpPath.EndY;
+                    }
+                }
+                else if (tmpPath.ePathType == EPathType.Lwpolyline)
+                {
+                    foreach (Point tmp in tmpPath.throughPoints)
+                    {
+                        //最小值
+                        if (tmp.X < min_x)
+                        {
+                            min_x = tmp.X;
+                        }
+                        if (tmp.Y < min_y)
+                        {
+                            min_y = tmp.Y;
+                        }
+                        //最大值
+                        if (tmp.X > Max_x)
+                        {
+                            Max_x = tmp.X;
+                        }
+                        if (tmp.Y > Max_y)
+                        {
+                            Max_y = tmp.Y;
+                        }
+                    }
+                }
+            }
+        }
         private void SwqpStartAndEndPoint(ref PATH pth)
         {
             double tmp = 0.0;
@@ -637,154 +933,7 @@ namespace Dxf
             pth.EndY = tmp;
         }
 
-        private void ConvertNoArcLwpolylineToTriggerLine()
-        {
-            for (int i = 0; i < LwopolylineList.Count; i++)
-            {
-                if (i > -1)
-                {
-                    //解析出原始数据
-                    List<PATH> ls_src = new List<PATH>();
-                    PATH oriPath = (PATH)LwopolylineList[i];
-                    for (int j = 0; j < oriPath.pointx.Length - 1; j++)
-                    {
-                        PATH newPath = new PATH();
-                        newPath.ePathType = EPathType.Line;
-                        newPath.StartX = Math.Round(oriPath.pointx[j], 7);
-                        newPath.StartY = Math.Round(oriPath.pointy[j], 7);
-                        newPath.EndX = Math.Round(oriPath.pointx[j + 1], 7);
-                        newPath.EndY = Math.Round(oriPath.pointy[j + 1], 7);
-                        ls_src.Add(newPath);
-                    }
-                    if (oriPath.Flag == 1)
-                    {
-                        PATH newPath = new PATH();
-                        newPath.ePathType = EPathType.Line;
-                        newPath.StartX = Math.Round(oriPath.pointx[oriPath.PointCount - 1], 7);
-                        newPath.StartY = Math.Round(oriPath.pointy[oriPath.PointCount - 1], 7);
-                        newPath.EndX = Math.Round(oriPath.pointx[0], 7);
-                        newPath.EndY = Math.Round(oriPath.pointy[0], 7);
-                        ls_src.Add(newPath);
-                    }
-                    ////折线路径排序////
-                    if (ls_src.Count <= 0)
-                    {
-                        continue;
-                    }
-                    //最小y值的水平线
-                    int index = 0;
-                    bool flag = false;
-                    double min_y = ls_src[0].StartY;
-                    for (int j = 0; j < ls_src.Count; j++)
-                    {
-                        if (ls_src[j].StartY == ls_src[j].EndY)
-                        {
-                            if (min_y >= ls_src[j].StartY)
-                            {
-                                min_y = ls_src[j].StartY;
-                                index = j;
-                                flag = true;
-                            }
-                        }
-                    }
-                    //调整list中线的顺序
-                    List<PATH> ls_dst = new List<PATH>();
-                    if (flag == true)
-                    {
-                        for (int j = index; j < ls_src.Count; j++)
-                        {
-                            ls_dst.Add(ls_src[j]);
-                        }
-                        for (int j = 0; j < index; j++)
-                        {
-                            ls_dst.Add(ls_src[j]);
-                        }
-                        foreach (PATH tmp in ls_dst)
-                        {
-                            PathList.Add(tmp);
-                        }
-                    }
-                }
-            }
-        }
-        private void ConvertNoArcLwpolylineToPoints()
-        {
-            for (int i = 0; i < LwopolylineList.Count; i++)
-            {
-                if (i > -1)
-                {
-                    PATH oriPath = (PATH)LwopolylineList[i];
-                    PATH newPath = new PATH();
-                    newPath.ePathType = EPathType.Lwpolyline;
-                    newPath.Flag = oriPath.Flag;
-                    for (int j = 0; j < oriPath.pointx.Length; j++)
-                    {
-                        newPath.throughPoints.Add(new Point(Math.Round(oriPath.pointx[j], 7), Math.Round(oriPath.pointy[j], 7)));
-                    }
-                    if (oriPath.Flag == 1)
-                    {
-                        newPath.throughPoints.Add(new Point(Math.Round(oriPath.pointx[0], 7), Math.Round(oriPath.pointy[0], 7)));
-                    }
-                    PathList.Add(newPath);
-                }
-            }
-        }
         private void ConvertLwpolylineToPathList()
-        {
-            for (int i = 0; i < LwopolylineList.Count; i++)
-            {
-                if (i > -1)
-                {
-                    PATH oriPath = (PATH)LwopolylineList[i];
-                    for (int j = 0; j < oriPath.pointx.Length - 1; j++)
-                    {
-                        PATH newPath = new PATH();
-                        if (oriPath.converxity[j] != 0)
-                        {
-                            //Point startPoint = new Point();
-                            //Point endPoint = new Point();
-                            //newPath.ePathType = EPathType.Arc;
-                            //newPath.StartX = oriPath.pointx[j];
-                            //newPath.StartY = oriPath.pointy[j];
-                            //newPath.EndX = oriPath.pointx[j + 1];
-                            //newPath.EndY = oriPath.pointy[j + 1];
-
-                            //startPoint.X = (float)newPath.StartX;
-                            //startPoint.Y = (float)newPath.StartY;
-                            //endPoint.X = (float)newPath.EndX;
-                            //endPoint.Y = (float)newPath.EndY;
-                            //Assist_LwP2DxfY_DXF(startPoint, endPoint, oriPath.converxity[j], out Point cent, out Point angle, out double radius);//凸度转弧度，圆心
-                            //newPath.StartAngle = angle.X;
-                            //newPath.EndAngle = angle.Y;
-                            //newPath.Radio = radius;
-                            //newPath.CenterX = cent.X;
-                            //newPath.CenterY = cent.Y;
-                            //PathList.Add(newPath);
-                        }
-                        else
-                        {
-                            newPath.ePathType = EPathType.Line;
-                            newPath.StartX = oriPath.pointx[j];
-                            newPath.StartY = oriPath.pointy[j];
-                            newPath.EndX = oriPath.pointx[j + 1];
-                            newPath.EndY = oriPath.pointy[j + 1];
-                            PathList.Add(newPath);
-                        }
-                    }
-                    if (oriPath.Flag == 1)
-                    {
-                        PATH newPath = new PATH();
-                        newPath.ePathType = EPathType.Line;
-                        newPath.StartX = oriPath.pointx[oriPath.PointCount - 1];
-                        newPath.StartY = oriPath.pointy[oriPath.PointCount - 1];
-                        newPath.EndX = oriPath.pointx[0];
-                        newPath.EndY = oriPath.pointy[0];
-                        PathList.Add(newPath);
-                    }
-                }
-            }
-        }
-        private void ConvertLwpolylineToPathList1()
         {
             for (int i = 0; i < LwopolylineList.Count; i++)
             {
@@ -854,7 +1003,7 @@ namespace Dxf
                         newPath.centerPoints.Add(new Point(0.0, 0.0));
                         newPath.types.Add(0);
                     }
-                    PathList.Add(newPath);
+                    PathArrayList.Add(newPath);
                 }
             }
         }
@@ -1171,6 +1320,114 @@ namespace Dxf
             oth.CopyFrom(this);
             return oth;
         }
+        public PATH Rotate(double ang) //路径旋转
+        {
+            //x'=x*cos(a)-y*sin(a)
+            //y'=x*sin(a)+y*cos(a)
+
+            PATH oth = new PATH();
+            oth.CopyFrom(this);
+
+            oth.StartX = ComMath.PointRotate(this.StartX, this.StartY, ang).X;
+            oth.StartY = ComMath.PointRotate(this.StartX, this.StartY, ang).Y;
+            oth.EndX = ComMath.PointRotate(this.EndX, this.EndY, ang).X;
+            oth.EndY = ComMath.PointRotate(this.EndX, this.EndY, ang).Y;
+            oth.CenterX = ComMath.PointRotate(this.CenterX, this.CenterY, ang).X;
+            oth.CenterY = ComMath.PointRotate(this.CenterX, this.CenterY, ang).Y;
+            oth.DeltaX = ComMath.PointRotate(this.DeltaX, this.DeltaY, ang).X;
+            oth.DeltaY = ComMath.PointRotate(this.DeltaX, this.DeltaY, ang).Y;
+
+            oth.PStartAngle += ang;
+            oth.PEndAngle += ang;
+            oth.StartAngle += ang;
+            oth.EndAngle += ang;
+            List<Point> ls = new List<Point>();
+
+            for (int i = 0; i < this.throughPoints.Count; i++)
+            {
+                ls.Add(ComMath.PointRotate(this.throughPoints[i], ang));
+            }
+            oth.throughPoints.Clear();
+            foreach (Point pos in ls)
+            {
+                oth.throughPoints.Add(pos);
+            }
+
+            ls.Clear();
+            for (int i = 0; i < this.centerPoints.Count; i++)
+            {
+                ls.Add(ComMath.PointRotate(this.centerPoints[i], ang));
+            }
+            oth.centerPoints.Clear();
+            foreach (Point pos in ls)
+            {
+                oth.centerPoints.Add(pos);
+            }
+
+            return oth;
+        }
+        public PATH Scale(Point cenPos, double rate)//路径缩放
+        {
+            PATH oth = new PATH();
+            oth.CopyFrom(this);
+
+            oth.StartX = ComMath.PointScale(cenPos, this.StartX, this.StartY, rate).X;
+            oth.StartY = ComMath.PointScale(cenPos, this.StartX, this.StartY, rate).Y;
+            oth.EndX = ComMath.PointScale(cenPos, this.EndX, this.EndY, rate).X;
+            oth.EndY = ComMath.PointScale(cenPos, this.EndX, this.EndY, rate).Y;
+            oth.CenterX = ComMath.PointScale(cenPos, this.CenterX, this.CenterY, rate).X;
+            oth.CenterY = ComMath.PointScale(cenPos, this.CenterX, this.CenterY, rate).Y;
+            oth.DeltaX = ComMath.PointScale(cenPos, this.DeltaX, this.DeltaY, rate).X;
+            oth.DeltaY = ComMath.PointScale(cenPos, this.DeltaX, this.DeltaY, rate).Y;
+
+            List<Point> ls = new List<Point>();
+
+            for (int i = 0; i < this.throughPoints.Count; i++)
+            {
+                ls.Add(ComMath.PointScale(cenPos, this.throughPoints[i], rate));
+            }
+            oth.throughPoints.Clear();
+            foreach (Point pos in ls)
+            {
+                oth.throughPoints.Add(pos);
+            }
+
+            ls.Clear();
+            for (int i = 0; i < this.centerPoints.Count; i++)
+            {
+                ls.Add(ComMath.PointScale(cenPos, this.centerPoints[i], rate));
+            }
+            oth.centerPoints.Clear();
+            foreach (Point pos in ls)
+            {
+                oth.centerPoints.Add(pos);
+            }
+
+            return oth;
+        }
+
+        public double PathLength
+        {
+            get
+            {
+                if (this.ePathType == EPathType.Line)
+                {
+                    if (this.StartX == this.EndX) //竖直线
+                    {
+                        return Math.Abs(this.StartY - this.EndY);
+                    }
+                    if (this.StartY == this.EndY) //水平线
+                    {
+                        return Math.Abs(this.StartX - this.EndX);
+                    }
+                    return 0.0;
+                }
+                else
+                {
+                    return 0.0;
+                }
+            }
+        }
     }
 
     public class EPathType
@@ -1180,5 +1437,6 @@ namespace Dxf
         public static string Ellipse = "Ellipse";
         public static string Lwpolyline = "Lwpolyline";
         public static string Spline = "Spline";
+        public static string Circle = "Circle";
     }
 }

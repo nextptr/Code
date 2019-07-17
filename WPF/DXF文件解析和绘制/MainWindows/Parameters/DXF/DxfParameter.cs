@@ -1,8 +1,7 @@
-﻿using Dxf;
+﻿using Common;
+using Dxf;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
 using System.Windows;
 
 namespace Parameters.DXF

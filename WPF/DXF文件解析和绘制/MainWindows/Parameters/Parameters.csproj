@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{60072599-dc63-44d5-9dec-5ae09514656d}</Project>
+    <ProjectReference Include="..\..\..\Common\Common\Common.csproj">
+      <Project>{6929adf7-96f4-46bb-9392-afca7cab79dc}</Project>
       <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Dxf\Dxf.csproj">

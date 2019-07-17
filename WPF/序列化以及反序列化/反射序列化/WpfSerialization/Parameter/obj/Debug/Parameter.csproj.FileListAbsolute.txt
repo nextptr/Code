@@ -1,0 +1,8 @@
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\obj\Debug\Parameter.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\obj\Debug\Parameter.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\bin\Debug\Parameter.dll
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\bin\Debug\Parameter.pdb
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\bin\Debug\Common.dll
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\bin\Debug\Common.pdb
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\obj\Debug\Parameter.dll
+D:\代码库\WPF\序列化以及反序列化\反射序列化\WpfSerialization\Parameter\obj\Debug\Parameter.pdb

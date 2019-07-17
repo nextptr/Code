@@ -1,6 +1,0 @@
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\obj\Debug\Sockets.csprojAssemblyReference.cache
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\obj\Debug\Sockets.csproj.CoreCompileInputs.cache
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\bin\Debug\Sockets.dll
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\bin\Debug\Sockets.pdb
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\obj\Debug\Sockets.dll
-C:\Users\Matthew\Desktop\TCP测试\Maxwell.LaserCutter.Sockets\obj\Debug\Sockets.pdb

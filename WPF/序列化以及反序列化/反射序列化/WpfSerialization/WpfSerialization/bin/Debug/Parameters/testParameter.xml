@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<testParameter>
+  <IParameterItem AssemblyQualifiedName="Parameter.ProjName.TotalInformation, Parameter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <TotalInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ItemName>西安工业</ItemName>
+      <ItemAddress>西安市未央区</ItemAddress>
+      <ItemPhonNumber>725300</ItemPhonNumber>
+    </TotalInformation>
+  </IParameterItem>
+  <IParameterItem AssemblyQualifiedName="Parameter.ProjName.ParameterItem, Parameter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <ParameterItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ItemStatus>true</ItemStatus>
+      <ItemName>食堂</ItemName>
+      <ItemPosX>1000</ItemPosX>
+      <ItemPosY>2000</ItemPosY>
+      <ItemPosZ>300</ItemPosZ>
+    </ParameterItem>
+  </IParameterItem>
+  <IParameterItem AssemblyQualifiedName="Parameter.ProjName.ParameterItem, Parameter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <ParameterItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ItemStatus>false</ItemStatus>
+      <ItemName>宿舍</ItemName>
+      <ItemPosX>0</ItemPosX>
+      <ItemPosY>10</ItemPosY>
+      <ItemPosZ>100</ItemPosZ>
+    </ParameterItem>
+  </IParameterItem>
+  <IParameterItem AssemblyQualifiedName="Parameter.ProjName.ParameterItem, Parameter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <ParameterItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ItemStatus>false</ItemStatus>
+      <ItemName>教室</ItemName>
+      <ItemPosX>-100</ItemPosX>
+      <ItemPosY>2000</ItemPosY>
+      <ItemPosZ>30</ItemPosZ>
+    </ParameterItem>
+  </IParameterItem>
+</testParameter>

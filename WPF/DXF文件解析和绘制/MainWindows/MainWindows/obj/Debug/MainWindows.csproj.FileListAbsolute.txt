@@ -1,14 +1,11 @@
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\MainWindows.exe.config
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\MainWindows.exe
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\MainWindows.pdb
-D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows.csprojAssemblyReference.cache
-D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\DxfWindow.g.cs
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindow.g.cs
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\App.g.cs
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows_MarkupCompile.cache
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows_MarkupCompile.lref
-D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\DxfWindow.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindow.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows.g.resources
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows.Properties.Resources.resources
@@ -22,7 +19,6 @@ D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\Para
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\Common.pdb
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\Dxf.pdb
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\bin\Debug\Parameters.pdb
-D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows.csproj.CopyComplete
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Resource\Button.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Resource\DataGrid.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Resource\DataGridSelectAll1.baml
@@ -36,3 +32,6 @@ D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Reso
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Resource\TextBlock.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\Resource\ToggleButton.baml
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\App.baml
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\MainWindows.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\DxfManager.g.cs
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\MainWindows\obj\Debug\DxfManager.baml

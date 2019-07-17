@@ -1,0 +1,32 @@
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\MainWindow.baml
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\MainWindow.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\App.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5_MarkupCompile.cache
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5.g.resources
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5.Properties.Resources.resources
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\bin\Debug\Example5.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\bin\Debug\Example5.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5.exe
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5.pdb
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\Example5_MarkupCompile.lref
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\bin\Debug\Example5.exe.config
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\My Documents\Visual Studio 2010\Projects\WinFrom1\Example5\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\bin\Debug\Example5.exe.config
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\bin\Debug\Example5.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\bin\Debug\Example5.pdb
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\MainWindow.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\App.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5_MarkupCompile.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5_MarkupCompile.lref
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\MainWindow.baml
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.g.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.Properties.Resources.resources
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.csproj.GenerateResource.Cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.exe
+D:\代码库\WPF\Mvvm\MVVMSimple\Example5\obj\x86\Debug\Example5.pdb

@@ -1,6 +1,13 @@
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Dxf.dll
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Dxf.pdb
-D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.csprojAssemblyReference.cache
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.dll
 D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Common.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\bin\Debug\Common.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\DxfWindow.g.cs
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf_MarkupCompile.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf_MarkupCompile.lref
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\DxfWindow.baml
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Dxf\obj\Debug\Dxf.g.resources

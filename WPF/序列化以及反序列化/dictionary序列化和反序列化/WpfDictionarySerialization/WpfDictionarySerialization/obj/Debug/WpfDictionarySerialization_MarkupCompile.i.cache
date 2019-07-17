@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\
+D:\代码库\WPF\序列化以及反序列化\dictionary序列化和反序列化\WpfDictionarySerialization\WpfDictionarySerialization\obj\Debug\
 WpfDictionarySerialization
 none
 false
 DEBUG;TRACE
-D:\CSTest\WpfDictionarySerialization\WpfDictionarySerialization\App.xaml
+D:\代码库\WPF\序列化以及反序列化\dictionary序列化和反序列化\WpfDictionarySerialization\WpfDictionarySerialization\App.xaml
 11151548125
 
 10-529052304
 131569487696
 MainWindow.xaml;
 
-True
+False
 

@@ -1,0 +1,9 @@
+  MessageBoxResult mr = MessageBox.Show("确定设置位置吗?", "提示", MessageBoxButton.OKCancel);
+            if (mr == MessageBoxResult.OK)
+            {
+                MessageBox.Show("确认");
+            }
+            else
+            {
+                MessageBox.Show("取消");
+            }

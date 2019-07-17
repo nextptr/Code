@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NoteParameter>
+  <IParameterItem AssemblyQualifiedName="WpfBase.Parameter.Notes.NoteItem, WpfBase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <NoteItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <NoteName>占位dxf</NoteName>
+      <NoteData />
+    </NoteItem>
+  </IParameterItem>
+</NoteParameter>

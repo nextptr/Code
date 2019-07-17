@@ -31,12 +31,12 @@ namespace CsBase.Class1
             ddr(string.Format("|-10:E3| " + "{0,-10:E3}", v4));
             ddr(string.Format("|-10:x | " + "{0,-10:x}", 31));
 
-            ddr(string.Format("0:C 12.5       | 货币           |" + "{0:C}", 12.5));
+            ddr(string.Format("0:C 12.5       | 货币            |" + "{0:C}", 12.5));
             ddr(string.Format("0:D4 12        | 十进制，填充0   |" + "{0:D4}", 12));
             ddr(string.Format("0:F4 12.34567  | 小数点后位数    |" + "{0:F4}", 12.34567));
-            ddr(string.Format("0:G4 12.34567  | 保留位数       |" + "{0:G4}", 12.34567));
-            ddr(string.Format("0:x 31         | 16进制         |" + "{0:x}", 31));
-            ddr(string.Format("0:P3 0.12345   | 百分比         |" + "{0:P3}", 0.12345));
+            ddr(string.Format("0:G4 12.34567  | 保留位数        |" + "{0:G4}", 12.34567));
+            ddr(string.Format("0:x 31         | 16进制          |" + "{0:x}", 31));
+            ddr(string.Format("0:P3 0.12345   | 百分比          |" + "{0:P3}", 0.12345));
             ddr(string.Format("0:e3 12.34567  | 科学计数法      |" + "{0:e3}", 12.34567));
             ddr(string.Format("0:N3 12345678.54321 | 三个数字一组加逗号|" + "{0:N3}", 12345678.54321));
         }

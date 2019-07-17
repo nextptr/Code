@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Matthew\source\repos\WpfWaveLines\WpfWaveLines\obj\Debug\
+D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\
 WpfWaveLines
 none
 false
 DEBUG;TRACE
-C:\Users\Matthew\source\repos\WpfWaveLines\WpfWaveLines\App.xaml
+D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\App.xaml
 22000761118
 
 10-1861558134
 151984215308
 MainWindow.xaml;WaveLine.xaml;
 
-False
+True
 

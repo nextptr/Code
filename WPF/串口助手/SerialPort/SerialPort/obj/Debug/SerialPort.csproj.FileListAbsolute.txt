@@ -1,0 +1,17 @@
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\App.g.cs
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort_MarkupCompile.cache
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort_MarkupCompile.lref
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.exe
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.pdb
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\bin\Debug\SerialPort.exe.config
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\bin\Debug\SerialPort.exe
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\bin\Debug\SerialPort.pdb
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\bin\Debug\Common.dll
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\bin\Debug\Common.pdb
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\MainWindow.baml
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.g.resources
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.Properties.Resources.resources
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.GenerateResource.Cache
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
