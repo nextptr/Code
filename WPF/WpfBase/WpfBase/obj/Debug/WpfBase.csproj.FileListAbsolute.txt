@@ -58,3 +58,17 @@ D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter6\unit6_2.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Common\ListMessagePanel.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter6\unit6_2.baml
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Common\ListMessagePanel.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter6\unit6_3.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter6\unit6_3.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter8\unit8_1.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter8\unit8_1.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter8\unit8_2.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter8\unit8_2.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter9\unit9_1.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter9\unit9_1.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter10\unit10_1.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_1.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter10\unit10_1.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_1.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.baml

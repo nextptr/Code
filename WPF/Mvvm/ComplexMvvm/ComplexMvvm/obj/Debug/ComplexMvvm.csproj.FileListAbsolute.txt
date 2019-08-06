@@ -1,0 +1,15 @@
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\bin\Debug\ComplexMvvm.exe.config
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\bin\Debug\ComplexMvvm.exe
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\bin\Debug\ComplexMvvm.pdb
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\App.g.cs
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm_MarkupCompile.cache
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm_MarkupCompile.lref
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\MainWindow.baml
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.g.resources
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.Properties.Resources.resources
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.csproj.GenerateResource.Cache
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.exe
+D:\代码库\WPF\Mvvm\ComplexMvvm\ComplexMvvm\obj\Debug\ComplexMvvm.pdb

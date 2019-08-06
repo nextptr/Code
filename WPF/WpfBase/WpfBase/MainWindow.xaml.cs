@@ -60,10 +60,25 @@ namespace WpfBase
             string filePath = fullPath.Remove(fullPath.Length - 10, 10); //"D:\\代码库\\WPF\\WpfBase\\WpfBase"
             string[] dir = Directory.GetDirectories(filePath);           //获取"D:\\代码库\\WPF\\WpfBase\\WpfBase"的所有子文件夹
             var pth = dir.Where(x => x.Contains("Chapter"));             //找到Chapter系列文件夹路径
-
+            Dictionary<int, string> dictionaryPath = new Dictionary<int, string>(); //pth排序
+            foreach (string tmp in pth)
+            {
+                string[] spt = tmp.Split('\\');
+                string num = spt[spt.Length - 1].Replace("Chapter", "");
+                int index = 0;
+                int.TryParse(num, out index);
+                dictionaryPath[index] = tmp;
+            }
+            List<int> sortLs = dictionaryPath.Keys.ToList();
+            List<string> paths = new List<string>();
+            sortLs.Sort();
+            foreach (int id in sortLs)
+            {
+                paths.Add(dictionaryPath[id]);
+            }
             string assemblyName = Assembly.GetExecutingAssembly().GetName().Name;//获取程序集名称 WpfBase
             List<UserControl> controls = new List<UserControl>();
-            foreach (string tmp in pth)
+            foreach (string tmp in paths)
             {
                 string[] ls = Directory.GetFiles(tmp);
                 if (ls.Length == 0)

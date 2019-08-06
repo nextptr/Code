@@ -54,6 +54,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Chapter10\unit10_1.xaml.cs">
+      <DependentUpon>unit10_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter11\unit11_1.xaml.cs">
+      <DependentUpon>unit11_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter11\unit11_2.xaml.cs">
+      <DependentUpon>unit11_2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Chapter4\CustomButton.cs" />
     <Compile Include="Chapter4\CustomStackPanel.cs" />
     <Compile Include="Chapter4\Person.cs" />
@@ -79,6 +88,19 @@
     <Compile Include="Chapter6\unit6_2.xaml.cs">
       <DependentUpon>unit6_2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chapter6\unit6_3.xaml.cs">
+      <DependentUpon>unit6_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\unit8_1.xaml.cs">
+      <DependentUpon>unit8_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter8\unit8_2.xaml.cs">
+      <DependentUpon>unit8_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter9\unit9_1.xaml.cs">
+      <DependentUpon>unit9_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Converter\BoolColorConverter.cs" />
     <Compile Include="Common\ListMessagePanel.xaml.cs">
       <DependentUpon>ListMessagePanel.xaml</DependentUpon>
     </Compile>
@@ -87,6 +109,18 @@
     <Compile Include="Parameter\NotifyPropertyChanged.cs" />
     <Compile Include="Parameter\ParameterInstance.cs" />
     <Compile Include="ReadMe.cs" />
+    <Page Include="Chapter10\unit10_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter11\unit11_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter11\unit11_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chapter2\unit2_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -124,6 +158,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Chapter6\unit6_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter6\unit6_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter8\unit8_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter8\unit8_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chapter9\unit9_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -191,6 +241,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Chapter10\Image\face1.bmp" />
+    <Resource Include="Chapter10\Image\face2.bmp" />
+    <Resource Include="Chapter10\Image\face3.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

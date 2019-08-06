@@ -67,7 +67,7 @@ namespace CsBase
                 this.DragMove();
             }
         }
-        private void TextBox_PreviewKeyDown(object sender, KeyEventArgs e)
+        private void TextBox_PreviewKeyDown(object sender, KeyEventArgs e) //富文本控件的按钮事件筛选
         {
             if (e.KeyStates == Keyboard.GetKeyStates(Key.S) && Keyboard.Modifiers == ModifierKeys.Control)
             {
@@ -102,7 +102,7 @@ namespace CsBase
                 e.Handled = true;
             }
         }
-        private void ShowMsg(string str)
+        private void ShowMsg(string str)  //运行结果显示
         {
             lsRun.Items.Add(str);
         }
@@ -132,7 +132,7 @@ namespace CsBase
             this.Close();
         }
 
-        private void Tab_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        private void Tab_PreviewMouseDown(object sender, MouseButtonEventArgs e) //tab窗口切换按钮事件
         {
             TabItem tab = sender as TabItem;
             if (tab != null)
@@ -149,11 +149,12 @@ namespace CsBase
                 {
                     tableIndex = 2;
                 }
-                ChoiseAunit(tableIndex);
+                ChoiseAnUnit(tableIndex);
             }
         }
-        private void treeUnit_Selected(object sender, RoutedEventArgs e)
+        private void treeUnit_Selected(object sender, RoutedEventArgs e)         //树形控件点击事件
         {
+            //切换单元显示时需要判断是否有对当前内容做修改，是否需要保存修改
             if (this.IsVisible == true)
             {
                 TreeViewItem item = sender as TreeViewItem;
@@ -187,21 +188,20 @@ namespace CsBase
                     readItem.Unit = uId;
                     SQLiteHelper.Instance.GetTableValue(ref readItem);
                     LoadTextFile(textBox, readItem.Remark);
-
                 }
 
+                //更新显示
                 selectClassIndex = cId;
                 selectClassUnitIndex = uId;
                 Assembly assembly = Assembly.GetExecutingAssembly(); // 获取当前程序集 
                 dynamic obj = assembly.CreateInstance("CsBase.Class" + cId + ".Class" + cId + '_' + uId);
                 classBase classobj = (classBase)obj;
                 obj_instance = classobj;
-
-                ChoiseAunit(tableIndex);
+                ChoiseAnUnit(tableIndex);
             }
         }
 
-        private void ChoiseAunit(int tab)
+        private void ChoiseAnUnit(int tab) //单元选择
         {
             if (obj_instance == null)
             {
@@ -213,16 +213,10 @@ namespace CsBase
             }
             else if (tab == 2)
             {//运行
-                lsRun.Items.Clear();
-                obj_instance.runList.Clear();
-                obj_instance.RunTest();
-                foreach (StringItem item in obj_instance.runList)
-                {
-                    lsRun.Items.Add(item.Str);
-                }
+                ShowRunCode();
             }
         }
-        private void ShowOriCode()
+        private void ShowOriCode()         //显示源码
         {
             //找到对应的Class.cs文件
             //"D:\\代码库\\WPF\\CsBase\\CsBase\\bin\\Debug"
@@ -290,7 +284,24 @@ namespace CsBase
                 fs.Close();
             }
         }
-        private void LoadTextFile(RichTextBox richTextBox, string data)
+        private void ShowRunCode()         //显示运行结果
+        {
+            lsRun.Items.Clear();
+            obj_instance.runList.Clear();
+            obj_instance.RunTest();
+            foreach (StringItem item in obj_instance.runList)
+            {
+                ListViewItem tm = new ListViewItem();
+                tm.Content = item.Str;
+                if (item.Type == StringType.Title)
+                {
+                    tm.Foreground = Brushes.Red;
+                }
+                lsRun.Items.Add(tm);
+            }
+        }
+
+        private void LoadTextFile(RichTextBox richTextBox, string data) //富文本内容加载
         {
             richTextBox.Document.Blocks.Clear();
             Paragraph p = new Paragraph();
@@ -298,7 +309,7 @@ namespace CsBase
             p.Inlines.Add(r);
             richTextBox.Document.Blocks.Add(p);
         }
-        private string GetRichText(RichTextBox richTextBox)
+        private string GetRichText(RichTextBox richTextBox)             //富文本内容获取
         {
             TextRange a = new TextRange(richTextBox.Document.ContentStart, richTextBox.Document.ContentEnd);
             //byte[] byteArray = Encoding.Default.GetBytes(a.Text); //string转byte

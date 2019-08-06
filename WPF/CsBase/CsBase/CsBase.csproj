@@ -79,10 +79,10 @@
     <Compile Include="Class4\Class4_3.cs" />
     <Compile Include="Class4\Class4_4.cs" />
     <Compile Include="Class4\Class4_5.cs" />
+    <Compile Include="Class4\Class4_6.cs" />
     <Compile Include="Common\classBase.cs" />
     <Compile Include="Common\IParameter.cs" />
     <Compile Include="Common\NotifyPropertyChanged.cs" />
-    <Compile Include="Common\Parameters.cs" />
     <Compile Include="Common\SQLiteHelper.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

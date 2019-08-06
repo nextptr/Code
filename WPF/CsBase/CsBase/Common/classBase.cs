@@ -10,6 +10,12 @@ using System.Xml.Serialization;
 
 namespace CsBase.Common
 {
+
+    public enum StringType
+    {
+        Normal,
+        Title,
+    }
     public class StringItem:NotifyPropertyChanged, IParameterItem
     {
         private string _str;
@@ -29,6 +35,8 @@ namespace CsBase.Common
             }
         }
 
+        public StringType Type;
+
         public IParameterItem Clone()
         {
             StringItem item = new StringItem();
@@ -46,6 +54,12 @@ namespace CsBase.Common
         public StringItem(string str)
         {
             _str = str;
+            Type = StringType.Normal;
+        }
+        public StringItem(string str , StringType tp)
+        {
+            _str = str;
+            Type = tp;
         }
     }
 
@@ -73,7 +87,7 @@ namespace CsBase.Common
         }
         protected void ddh(string str)
         {
-            runList.Add(new StringItem("\n" + str));
+            runList.Add(new StringItem("\n" + str, StringType.Title));
             if (ddMsgEvent != null)
             {
                 ddMsgEvent("\n"+str);

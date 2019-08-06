@@ -35,71 +35,19 @@
                         </UniformGrid>
                     </GroupBox>
                 </UniformGrid>
-                <UniformGrid Grid.Row="1" Rows="2">
-                    <GroupBox Grid.Row="1" Header="依赖属性继承">
-                        <local:CustomStackPanel x:Name="customStackPanel" MinDate="{x:Static sys:DateTime.Today}">
-                            <ContentPresenter Content="{Binding Path=MinDate,ElementName=customStackPanel}"/>
-                            <local:CustomButton Content="{Binding RelativeSource={x:Static RelativeSource.Self},Path=MinDate }" HorizontalAlignment="Left" Width="150" Height="40"/>
-                        </local:CustomStackPanel>
-                    </GroupBox>
-                    <GroupBox Header="RelativeSourse绑定">
-                        <UniformGrid Columns="3" Background="White">
-                            <Label Content="博客地址：https://blog.csdn.net/theoldsod2000/article/details/12966773" Visibility="Collapsed"/>
-                            <!--<self绑定，使height绑定到同本控件的width属性>-->
-                            <TextBlock Width="80" Height="{Binding RelativeSource={RelativeSource Self},Path=Width}" FontSize="18" FontWeight="Bold" Margin="10" Background="Red"  />
-                            <!--<TemplatedParent绑定，使内部填充的颜色属性绑定到父模板的颜色属性>-->
-                            <Button Content="TemplatedParent" Width="100" Height="50">
-                                <Button.Style>
-                                    <Style TargetType="{x:Type Button}" >
-                                        <Setter Property="Background" Value="Green"/>
-                                        <Setter Property="Template">
-                                            <Setter.Value>
-                                                <ControlTemplate TargetType="{x:Type Button}">
-                                                    <Grid>
-                                                        <Ellipse>
-                                                            <Ellipse.Fill>
-                                                                <SolidColorBrush Color="{Binding Path=Background.Color,RelativeSource={RelativeSource TemplatedParent}}"/>
-                                                            </Ellipse.Fill>
-                                                        </Ellipse>
-                                                    </Grid>
-                                                </ControlTemplate>
-                                            </Setter.Value>
-                                        </Setter>
-                                        <Style.Triggers>
-                                            <Trigger Property="IsMouseOver" Value="True">
-                                                <Setter Property="Background" Value="Blue"/>
-                                            </Trigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </Button.Style>
-                            </Button>
-                            <!--<搜索关联父级容器的属性，可以指定模式，层数，类型，RelativeSource={RelativeSource Mode=FindAncestor,AncestorLevel=1,AncestorType={x:Type UniformGrid}}>-->
-                            <!--<不是所有容器都可以作为父级容器被寻找，例如border>-->
-                            <UniformGrid Columns="2" Background="Blue">
-                                <Border BorderBrush="Black" BorderThickness="3" Padding="5">
-                                    <Label Background="Red" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
-                                </Border>
-                                <Border BorderBrush="Gold" BorderThickness="3" Padding="5">
-                                    <StackPanel Background="Pink">
-                                        <Label Background="{Binding Path=Background,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Border}}}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
-                                        <Label Background="{Binding Path=Background,RelativeSource={RelativeSource Mode=FindAncestor,AncestorLevel=1, AncestorType={x:Type UniformGrid}}}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
-                                        <Label Background="{Binding Path=Background,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type UniformGrid}, AncestorLevel=2}}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
-                                    </StackPanel>
-                                </Border>
-                            </UniformGrid>
-                        </UniformGrid>
-                    </GroupBox>
-
-                </UniformGrid>
-                <UniformGrid Grid.Row="0" Grid.Column="1">
-                    <GroupBox Header="附加属性">
-                        <Canvas>
-                            <Ellipse   Fill="Red"  Width="100" Height="60" local:RotationManager.Angle="30" />
-                            <Rectangle Fill="Blue" Width="80"  Height="80" local:RotationManager.Angle="45" Canvas.Left="100" Canvas.Top="100" />
-                            <Button    Content="Hello" Canvas.Left="130"   local:RotationManager.Angle="60" Canvas.Top="30" FontSize="20"/>
-                        </Canvas>
-                    </GroupBox>
-                </UniformGrid>
+                <GroupBox Grid.Row="1" Header="依赖属性继承">
+                    <local:CustomStackPanel x:Name="customStackPanel" MinDate="{x:Static sys:DateTime.Today}">
+                        <ContentPresenter Content="{Binding Path=MinDate,ElementName=customStackPanel}"/>
+                        <local:CustomButton Content="{Binding RelativeSource={x:Static RelativeSource.Self},Path=MinDate }" HorizontalAlignment="Left" Width="150" Height="40"/>
+                    </local:CustomStackPanel>
+                </GroupBox>
+                <GroupBox Grid.Row="0" Grid.Column="1" Header="附加属性">
+                    <Canvas>
+                        <Ellipse   Fill="Red"  Width="100" Height="60" local:RotationManager.Angle="30" />
+                        <Rectangle Fill="Blue" Width="80"  Height="80" local:RotationManager.Angle="45" Canvas.Left="100" Canvas.Top="100" />
+                        <Button    Content="Hello" Canvas.Left="130"   local:RotationManager.Angle="60" Canvas.Top="30" FontSize="20"/>
+                    </Canvas>
+                </GroupBox>
             </Grid>
         </TabItem>
     </TabControl>

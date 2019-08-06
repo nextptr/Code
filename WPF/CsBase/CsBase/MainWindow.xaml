@@ -52,6 +52,7 @@
                     <TreeViewItem Name="unit4_3" Header="泛型"/>
                     <TreeViewItem Name="unit4_4" Header="枚举器和迭代器"/>
                     <TreeViewItem Name="unit4_5" Header="LINQ"/>
+                    <TreeViewItem Name="unit4_6" Header="正则表达式"/>
                 </TreeViewItem>
             </TreeView>
             <TabControl Name="tabRoot" Grid.Column="1" TabStripPlacement="Bottom" >
