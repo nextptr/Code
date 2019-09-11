@@ -1,0 +1,15 @@
+D:\代码库\WPF\WpfColor\WpfColor\bin\Debug\WpfColor.exe.config
+D:\代码库\WPF\WpfColor\WpfColor\bin\Debug\WpfColor.exe
+D:\代码库\WPF\WpfColor\WpfColor\bin\Debug\WpfColor.pdb
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\App.g.cs
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor_MarkupCompile.cache
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor_MarkupCompile.lref
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\MainWindow.baml
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.g.resources
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.Properties.Resources.resources
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.csproj.GenerateResource.Cache
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.exe
+D:\代码库\WPF\WpfColor\WpfColor\obj\Debug\WpfColor.pdb

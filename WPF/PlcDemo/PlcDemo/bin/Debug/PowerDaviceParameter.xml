@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<SerializationDictionaryOfInt32ListOfPowerDeviceAcqData>
+  <SerializationDictionary>
+    <key>
+      <int>1</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PowerDeviceAcqData>
+          <Date>2018:10:26/14:12</Date>
+          <AverageValue>13.254</AverageValue>
+          <Time>1</Time>
+          <Unit>mW</Unit>
+        </PowerDeviceAcqData>
+        <PowerDeviceAcqData>
+          <Date>2018:10:26/14:13</Date>
+          <AverageValue>12.161</AverageValue>
+          <Time>1</Time>
+          <Unit>mW</Unit>
+        </PowerDeviceAcqData>
+      </ArrayOfPowerDeviceAcqData>
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>2</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PowerDeviceAcqData>
+          <Date>2018:10:26/14:15</Date>
+          <AverageValue>12.441</AverageValue>
+          <Time>1</Time>
+          <Unit>mW</Unit>
+        </PowerDeviceAcqData>
+      </ArrayOfPowerDeviceAcqData>
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>3</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PowerDeviceAcqData>
+          <Date>2018:10:27/09:43</Date>
+          <AverageValue>10.486</AverageValue>
+          <Time>1</Time>
+          <Unit>mW</Unit>
+        </PowerDeviceAcqData>
+      </ArrayOfPowerDeviceAcqData>
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>4</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>5</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>6</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>7</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>8</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>9</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+  <SerializationDictionary>
+    <key>
+      <int>10</int>
+    </key>
+    <value>
+      <ArrayOfPowerDeviceAcqData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+    </value>
+  </SerializationDictionary>
+</SerializationDictionaryOfInt32ListOfPowerDeviceAcqData>

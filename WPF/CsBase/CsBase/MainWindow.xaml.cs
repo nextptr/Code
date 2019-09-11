@@ -89,10 +89,8 @@ namespace CsBase
                 //    textBox.CaretPosition = sta/*.GetPositionAtOffset(1)*/;
                 //}
                 //e.Handled = true;
-            }
-            else if (e.KeyStates == Keyboard.GetKeyStates(Key.Enter))
-            {
-                textBox.CaretPosition.InsertLineBreak();
+
+            textBox.CaretPosition.InsertLineBreak();
                 TextPointer sta = textBox.CaretPosition.GetLineStartPosition(1);
                 if (sta != null)
                 {
@@ -100,6 +98,17 @@ namespace CsBase
                     textBox.CaretPosition = sta.GetPositionAtOffset(5);
                 }
                 e.Handled = true;
+            }
+            else if (e.KeyStates == Keyboard.GetKeyStates(Key.Enter))
+            {
+                //textBox.CaretPosition.InsertLineBreak();
+                //TextPointer sta = textBox.CaretPosition.GetLineStartPosition(1);
+                //if (sta != null)
+                //{
+                //    textBox.AppendText($"   >");
+                //    textBox.CaretPosition = sta.GetPositionAtOffset(5);
+                //}
+                //e.Handled = true;
             }
         }
         private void ShowMsg(string str)  //运行结果显示

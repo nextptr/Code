@@ -1,0 +1,60 @@
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe.config
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.pdb
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\App.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.cache
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.lref
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.baml
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.baml
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.g.resources
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.Properties.Resources.resources
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.GenerateResource.Cache
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.exe
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe.config
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\App.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.lref
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.g.resources
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.Properties.Resources.resources
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.GenerateResource.Cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.exe
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\WpfDrawing\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\WpfDrawing\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\代码库\WPF\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe.config
+D:\代码库\WPF\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.exe
+D:\代码库\WPF\WpfDrawing\WpfDrawing\bin\Debug\WpfDrawing.pdb
+D:\代码库\WPF\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.dll
+D:\代码库\WPF\WpfDrawing\WpfDrawing\bin\Debug\DrawingBoard.pdb
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.g.cs
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\App.g.cs
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.cache
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing_MarkupCompile.lref
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\MainWindow.baml
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\SimplePainter.baml
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.g.resources
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.Properties.Resources.resources
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.GenerateResource.Cache
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.exe
+D:\代码库\WPF\WpfDrawing\WpfDrawing\obj\Debug\WpfDrawing.pdb

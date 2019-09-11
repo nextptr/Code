@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Matthew\Desktop\UDP通信\UdpTest\UdpTest\obj\Debug\
+D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\
 UdpTest
 none
 false
 DEBUG;TRACE
-C:\Users\Matthew\Desktop\UDP通信\UdpTest\UdpTest\App.xaml
+D:\代码库\WPF\UDP通信\UdpTest\UdpTest\App.xaml
 32118692604
 
 7-970269300
-141711219518
+141220951692
 Client.xaml;MainWindow.xaml;Server.xaml;
 
 False

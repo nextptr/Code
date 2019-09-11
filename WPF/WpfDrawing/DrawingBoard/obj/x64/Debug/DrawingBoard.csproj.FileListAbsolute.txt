@@ -1,0 +1,22 @@
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\bin\x64\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\bin\x64\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingControl\UserControl1.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard_MarkupCompile.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard_MarkupCompile.lref
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingControl\UserControl1.baml
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\Resource\BlackButton.baml
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.g.resources
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\bin\x64\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\bin\x64\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingControl\UserControl1.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard_MarkupCompile.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard_MarkupCompile.lref
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingControl\UserControl1.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\Resource\BlackButton.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.g.resources
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\x64\Debug\DrawingBoard.pdb

@@ -1,0 +1,39 @@
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.lref
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\Resource\BlackButton.baml
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.g.resources
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.lref
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\Resource\BlackButton.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.g.resources
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.dll
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.baml
+C:\Users\Matthew\Desktop\新建文件夹 (4)\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Matthew\Desktop\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.baml
+D:\代码库\WPF\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.dll
+D:\代码库\WPF\WpfDrawing\DrawingBoard\bin\Debug\DrawingBoard.pdb
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.g.cs
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.cache
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard_MarkupCompile.lref
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingControl\DrawingPanel.baml
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\Resource\BlackButton.baml
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.g.resources
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.dll
+D:\代码库\WPF\WpfDrawing\DrawingBoard\obj\Debug\DrawingBoard.pdb

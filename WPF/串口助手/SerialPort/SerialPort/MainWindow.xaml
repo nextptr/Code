@@ -49,7 +49,7 @@
                         <ComboBoxItem Content="115200"/>
                     </ComboBox>
 
-                    <Ellipse Grid.Row="2" Grid.Column="0" Name="connectStatus" Height="25" Width="25" VerticalAlignment="Center" HorizontalAlignment="Center" Fill="{Binding ConvertBool}"/>
+                    <Ellipse Grid.Row="2" Grid.Column="0" Name="connectStatus" Height="25" Width="25" VerticalAlignment="Center" HorizontalAlignment="Center" Fill="{Binding ComConnected,Converter={StaticResource ConvertBool}}"/>
                     <ToggleButton  Grid.Row="2" Grid.Column="1" Name="btnConnect" FontSize="20" Content="连接" />
 
                 </Grid>
