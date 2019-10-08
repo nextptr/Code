@@ -23,7 +23,6 @@ D:\代码库\WpfBase\WpfBase\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\bin\Debug\WpfBase.exe.config
 D:\代码库\WPF\WpfBase\WpfBase\bin\Debug\WpfBase.exe
 D:\代码库\WPF\WpfBase\WpfBase\bin\Debug\WpfBase.pdb
-D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\WpfBase.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter2\unit2_1.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter3\unit3_1.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\MainWindow.g.cs
@@ -72,3 +71,4 @@ D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter10\unit10_1.baml
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_1.baml
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\WpfBase.csprojAssemblyReference.cache

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpprimer", "cpprimer\cpprimer.vcxproj", "{3E63B867-929D-4C97-AB1D-85B8717C57A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Debug|x64.ActiveCfg = Debug|x64
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Debug|x64.Build.0 = Debug|x64
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Debug|x86.Build.0 = Debug|Win32
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Release|x64.ActiveCfg = Release|x64
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Release|x64.Build.0 = Release|x64
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Release|x86.ActiveCfg = Release|Win32
+		{3E63B867-929D-4C97-AB1D-85B8717C57A7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92B8EBB3-7B44-4D96-A880-E6AA1A2C537E}
+	EndGlobalSection
+EndGlobal

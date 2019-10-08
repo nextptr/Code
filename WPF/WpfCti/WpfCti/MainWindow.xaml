@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfCti.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCti"
+        mc:Ignorable="d"
+        Title="Cti振镜Demo" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="连接">
+            <UniformGrid Grid.Row="0" Columns="3">
+                <Ellipse Name="laser_status" Width="20" Height="20" Fill="Red" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+                <Label Name="lab_con" Content="设备未连接" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" />
+                <ToggleButton Name="btn_key" Content="连接"/>
+            </UniformGrid>
+        </GroupBox>
+        <GroupBox Name="group1" Header="激光参数" Grid.Row="1" IsEnabled="False" Opacity="0.5" >
+            <StackPanel Orientation="Vertical">
+                <UniformGrid Grid.Row="3" Columns="2">
+                    <Label Content="激光功率(w):" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+                    <TextBox Name="txt_power" Text="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+                </UniformGrid>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox  Name="group2" Header="打标" Grid.Row="2" IsEnabled="False" Opacity="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="起点X:"  HorizontalContentAlignment="Right" />
+                <Label Grid.Row="1" Grid.Column="0" Content="起点Y:"  HorizontalContentAlignment="Right" />
+                <Label Grid.Row="0" Grid.Column="2" Content="终点X:"  HorizontalContentAlignment="Right" />
+                <Label Grid.Row="1" Grid.Column="2" Content="终点Y:"  HorizontalContentAlignment="Right" />
+
+                <TextBox Name="txt_sta_x" Grid.Row="0" Grid.Column="1" Text="0" Margin="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                <TextBox Name="txt_sta_y" Grid.Row="1" Grid.Column="1" Text="-2.5" Margin="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                <TextBox Name="txt_end_x" Grid.Row="0" Grid.Column="3" Text="0" Margin="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+                <TextBox Name="txt_end_y" Grid.Row="1" Grid.Column="3" Text="2.5" Margin="1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+
+                <Button Name="btn_scan" Grid.Column="4" Grid.RowSpan="2" Content="打标" Margin="1"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

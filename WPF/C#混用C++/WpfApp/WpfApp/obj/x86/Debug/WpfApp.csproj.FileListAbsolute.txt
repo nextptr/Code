@@ -1,0 +1,17 @@
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\bin\x86\Debug\WpfApp.exe.config
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\bin\x86\Debug\WpfApp.exe
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\bin\x86\Debug\WpfApp.pdb
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.csprojAssemblyReference.cache
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\App.g.cs
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp_MarkupCompile.cache
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp_MarkupCompile.lref
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\MainWindow.baml
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.g.resources
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.Properties.Resources.resources
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.csproj.GenerateResource.cache
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.exe
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.pdb
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\bin\x86\Debug\Dll1.dll
+C:\Users\Matthew\Desktop\C#混用C++\WpfApp\WpfApp\obj\x86\Debug\WpfApp.csproj.CopyComplete

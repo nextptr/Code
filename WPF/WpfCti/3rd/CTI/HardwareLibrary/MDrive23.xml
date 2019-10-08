@@ -1,0 +1,251 @@
+<XYTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="MDrive23">
+	<MoveFunction>MDrive23.Move</MoveFunction>
+	<InitializeFunction>MDrive23.Initialize</InitializeFunction>
+	<GetLocationFunction />
+	<Description>
+-- **********************************************************************************
+-- 
+-- Hardware Library for controlling MDrive23 stepper controller.
+--
+-- [1.0.0.0]: Initial developments
+-- [1.0.0.1]: Recursive behavior removed from the 'IsItMoving' function
+--          : Added header section to a function and Cleaned the code according  
+--            to the coding standards
+--          :
+--
+-- **********************************************************************************
+--
+-- Global parameters
+--
+-- comPortName: Communication port name.
+--
+-- **********************************************************************************
+--
+-- Provides more information here
+--
+-- Additional functions are,
+-- 
+--       function ComPort()
+--       function IsItMoving()
+--       function SetParamaters()
+--       function Home()
+--       return function MoveToPosition()
+--
+--
+--
+-- **********************************************************************************
+	</Description>
+	<Scripts>
+		<Script Name="MDrive23_Script">-- **********************************************************************************
+-- 
+-- Hardware Library for controlling MDrive23 stepper controller.
+--
+-- [1.0.0.0]: Initial developments
+-- [1.0.0.1]: Recursive behavior removed from the 'IsItMoving' function
+--          : Added header section to a function and Cleaned the code according  
+--            to the coding standards
+--          :
+--
+-- **********************************************************************************
+--
+-- ComPortName: Communication port name.
+--
+-- **********************************************************************************
+
+
+-- **********************************************************************************
+-- 
+-- Opens rs232 communication	
+--
+-- **********************************************************************************
+function MDrive23.OpenComPort()
+	if MDrive23.ComPort == nil then		
+		-- Open Com port
+		MDrive23.ComPort = Io.OpenComPort(MDrive23.ComPortName) 
+		-- Set COM properties
+		-- Set the baud rate as 9600 
+		MDrive23.ComPort.Baud = Baud.Br9600
+		-- Used no parity condition (Options : None, Odd, Even) 
+		MDrive23.ComPort.Parity = Parity.None
+		-- Sets the com port 8 data bits (Options : 5,6,7) 
+		MDrive23.ComPort.Data = 8
+		-- Sets the com port stop bits as 1 (Options: 1, 1.5, 2) 
+		MDrive23.ComPort.StopBits = 1
+		-- Off the com port flow control 
+		MDrive23.ComPort.FlowControl = FlowControl.Off
+	else
+		-- TODO Check whether it is already opened and open if closed
+	end
+	
+end
+
+-- **********************************************************************************
+-- 
+-- Dual function that determines if axis is stationary and returns Z position
+--
+-- **********************************************************************************
+function MDrive23.IsItMoving()
+	if MDrive23.ComPort ~= nil then	
+		repeat
+		variable = MDrive23.ComPort.Write("EM 0\r\n", 100)	
+		variable = MDrive23.ComPort.Write("EM 1\r\n", 100)
+		variable1 = MDrive23.ComPort.Write("PR P\r\n", 100)
+		variable2 = MDrive23.ComPort.Read(7, 1000) 
+		variable = MDrive23.ComPort.Write("EM 1\r\n", 100)
+		variable1 = MDrive23.ComPort.Write("PR P\r\n", 100)
+		variable2 = MDrive23.ComPort.Read(14, 1000) 
+		variable3 = MDrive23.ComPort.Read(14, 1000)
+		variable4 = tonumber(variable3)
+		Pos1 = variable4
+		
+		if Pos1 == nil then Pos1 = 3000001 end
+		
+		variable = MDrive23.ComPort.Write("EM 0\r\n",  100)	
+		variable = MDrive23.ComPort.Write("EM 1\r\n", 100)
+		variable1 = MDrive23.ComPort.Write("PR P\r\n", 100)
+		variable2 = MDrive23.ComPort.Read(7, 1000) 
+		variable = MDrive23.ComPort.Write("EM 1\r\n", 100)
+		variable1 = MDrive23.ComPort.Write("PR P\r\n", 100)
+		variable2 = MDrive23.ComPort.Read(14, 1000) 
+		variable3 = MDrive23.ComPort.Read(14, 1000)
+		variable4 = tonumber(variable3)
+		Pos2 = variable4
+		
+		if Pos2 == nil then Pos2 = 3000002 end
+		
+		until (Pos1 == Pos2)
+	end
+	
+	Report("In Position")
+end
+
+-- **********************************************************************************
+-- 
+-- Set MDrive paramaters
+--
+-- **********************************************************************************
+function MDrive23.SetParamaters()
+	
+	MDrive23.OpenComPort()	
+		
+	variable = MDrive23.ComPort.Write("S1 1,1,1\r\n", 100)
+	variable = MDrive23.ComPort.Write("MS 256\r\n", 100)
+	variable = MDrive23.ComPort.Write("HC 100\r\n", 100)
+	variable = MDrive23.ComPort.Write("RC 75\r\n", 100)
+	variable = MDrive23.ComPort.Write("VM 100000\r\n", 100)
+	variable = MDrive23.ComPort.Write("VI 1000\r\n", 100)
+	variable = MDrive23.ComPort.Write("EM 0\r\n", 100)	
+	variable = MDrive23.ComPort.Write("EM 1\r\n", 100)
+		
+	MDrive23.ComPort.Close()
+end
+
+-- **********************************************************************************
+-- 
+-- Home to switch
+--
+-- **********************************************************************************
+function MDrive23.Home()
+	
+	-- POP UP Warning message and - Press ESC to stop
+	message = Smd.MessageBox("Press OK to begin move to HOME switch. Press ESC to abort move.", "SMD Message",  
+		Smd.MessageBoxButton.OKCancel, Smd.MessageBoxIcon.Question)
+	    
+	if (message == "OK") then
+		MDrive23.OpenComPort()
+		variable = MDrive23.ComPort.Write("HM 3\r\n", 100)
+		Report("Moving to Home Switch")
+		MDrive23.IsItMoving()
+		variable = MDrive23.ComPort.Write("P 20000000\r\n", 100)
+		variable = MDrive23.ComPort.Write("P 20000000\r\n", 100)
+		variable = MDrive23.ComPort.Write("P 20000000\r\n", 100)
+		MDrive23.ComPort.Close()
+	end
+	
+	-- Creates an Input Box
+	inBox = Smd.CreateInputBox()
+	-- Enter a title for the input box
+	inBox.Title = "Working Distance" 
+	-- Adds an input text box which accepts a float
+	inBox.AddFloatInput("Measure the Working Distance in mm ",0)
+	-- Adds an input text box which accepts an integer
+	--inBox.AddIntegerInput("Measure the Working Distance in mm ",0)
+	-- Pops the Input Box through ScanMaster™ Designer and waits until the user enters values
+	inBox.ReadInputs()
+	-- Get the input from the user
+	ZZtop_mm= inBox.GetInputs()
+end
+
+-- **********************************************************************************
+--
+-- Move to a position
+--
+-- ----------------------------------------------------------------------------------
+--
+-- Returns Desired Position
+--
+-- **********************************************************************************
+function MDrive23.MoveToPosition()
+	
+	-- Creates an Input Box 
+	inBox = Smd.CreateInputBox()
+	-- Enter a title for the input box
+	inBox.Title = "Working Distance"
+	-- Adds an input text box which accepts an integer
+	--inBox.AddIntegerInput("Enter Working Distance in mm ")
+	-- Adds an input text box which accepts a float
+	inBox.AddFloatInput("Enter Working Distance in mm ")
+	-- Pops the Input Box through ScanMaster™ Designer and waits until the user enters values
+	inBox.ReadInputs()
+	-- Get the input from the user 
+	DesiredPos = inBox.GetInputs()
+		
+	message = Smd.MessageBox("Press OK to begin move.  Press ESC to abort move.", "SMD Message",  
+		Smd.MessageBoxButton.OKCancel, Smd.MessageBoxIcon.Question) --Create message box 
+	    
+	if (message == "OK") then   
+		CountsConversion = 20000000 - (528 - DesiredPos) * 24221
+		CountsConversion = Math.Ceil(CountsConversion)
+		Smd.ClearOutputWindow() 
+		Report(CountsConversion)	
+		MDrive23.OpenComPort()	
+		variable = MDrive23.ComPort.Write("MA "..CountsConversion.."\r\n", 100)
+		Report("Moving to "..DesiredPos)
+		MDrive23.IsItMoving()
+		MDrive23.ComPort.Close()
+	end
+		
+	return DesiredPos
+end
+
+
+
+
+
+------------------------------------------------------------------------------------
+-- Demo purpose only, needs to remove this section soon.
+
+
+function MDrive23.Initialize()
+	--port = Io.OpenComPort(MDrive23.ComPortName)
+	Report("Initialize")
+end
+
+function MDrive23.Move(x, y)
+	--port.Write("move "..x..","..y)
+	Report("Move")
+end
+
+function MDrive23.Report(msg)
+	Report(msg)
+end
+
+-- Demo purpose only, needs to remove this section soon.
+------------------------------------------------------------------------------------
+</Script>
+		<Script Name="MDrive23_Script1">-- Add hardware controlling functionality here</Script>
+	</Scripts>
+	<Parameters>
+		<Parameter Name="ComPortName" Value="com1:" Description="" />
+	</Parameters>
+</XYTable>

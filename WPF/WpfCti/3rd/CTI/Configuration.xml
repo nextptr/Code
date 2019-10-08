@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<!-- Set the path where the hardware configuration files can be found -->
+	<HardwareConfigurationPath>C:\ProgramData\Cambridge Technology\ScanMaster Designer\HardwareConfiguration</HardwareConfigurationPath>
+	<EnableEC1000>true</EnableEC1000>
+	<EnableSMC>true</EnableSMC>
+</Configuration>

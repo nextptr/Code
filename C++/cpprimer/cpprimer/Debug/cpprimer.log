@@ -1,0 +1,11 @@
+﻿  cpprimer.cpp
+d:\代码库\c++\cpprimer\cpprimer\class2.h(30): warning C4305: “初始化”: 从“int”到“bool”截断
+d:\代码库\c++\cpprimer\cpprimer\class2.h(36): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\代码库\c++\cpprimer\cpprimer\class2.h(45): warning C4305: “初始化”: 从“int”到“signed char”截断
+d:\代码库\c++\cpprimer\cpprimer\class2.h(45): warning C4309: “初始化”: 截断常量值
+d:\代码库\c++\cpprimer\cpprimer\class2.h(64): warning C4244: “初始化”: 从“long double”转换到“int”，可能丢失数据
+d:\代码库\c++\cpprimer\cpprimer\class2.h(114): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+d:\代码库\c++\cpprimer\cpprimer\class2.h(116): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\代码库\c++\cpprimer\cpprimer\class2.h(116): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+d:\代码库\c++\cpprimer\cpprimer\class3.h(326): warning C4101: “str3”: 未引用的局部变量
+  cpprimer.vcxproj -> D:\代码库\C++\cpprimer\Debug\cpprimer.exe

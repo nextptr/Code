@@ -1,0 +1,52 @@
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\WpfCti.exe.config
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\WpfCti.exe
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\WpfCti.pdb
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.Base.dll
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.dll
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.ScanInterface.dll
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Gsi.Framework.dll
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.xml
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.Base.xml
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\MainWindow.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\App.g.cs
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti_MarkupCompile.cache
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti_MarkupCompile.lref
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\MainWindow.baml
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.g.resources
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.Properties.Resources.resources
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.csproj.GenerateResource.Cache
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.exe
+C:\Users\Matthew\Desktop\新建文件夹 (2)\WpfCti\WpfCti\obj\Debug\WpfCti.pdb
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\WpfCti.exe.config
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\WpfCti.exe
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\WpfCti.pdb
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.Base.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\Cti.Hardware.ScanDevice.ScanInterface.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\Gsi.Framework.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\de\Cti.Hardware.ScanDevice.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\he\Cti.Hardware.ScanDevice.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\ru\Cti.Hardware.ScanDevice.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\zh-CHS\Cti.Hardware.ScanDevice.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\de\Cti.Hardware.ScanDevice.Base.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\he\Cti.Hardware.ScanDevice.Base.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\ru\Cti.Hardware.ScanDevice.Base.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\tr\Cti.Hardware.ScanDevice.Base.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\zh-CHS\Cti.Hardware.ScanDevice.Base.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\de\Cti.Hardware.ScanDevice.ScanInterface.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\he\Cti.Hardware.ScanDevice.ScanInterface.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\ru\Cti.Hardware.ScanDevice.ScanInterface.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\bin\Debug\zh-CHS\Cti.Hardware.ScanDevice.ScanInterface.resources.dll
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\MainWindow.g.cs
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\App.g.cs
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti_MarkupCompile.cache
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti_MarkupCompile.lref
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\MainWindow.baml
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.g.resources
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.Properties.Resources.resources
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.csproj.GenerateResource.Cache
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.exe
+C:\Users\Matthew\Desktop\CtiDemo\WpfCti\WpfCti\obj\Debug\WpfCti.pdb

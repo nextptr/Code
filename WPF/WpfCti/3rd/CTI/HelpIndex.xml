@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HelpTreeNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Children>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Array.ByteArray</Text>
+          <Description>Creates an instance of a byte array with the specified length. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>array_byteArray.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Array.DoubleArray</Text>
+          <Description>Creates an instance of a double array with the specified length.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>array_DoubleArray.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Array.IntArray</Text>
+          <Description>Creates an instance of an Integer array with the specified length.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>array_intArray.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Array.StringArray</Text>
+          <Description>Creates an instance of an String array with the specified length.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>array_StringArray.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Array</Text>
+      <Description>Creates an array.An array is a series of elements of the same type placed in contiguous memory locations that can be individually referenced by adding an index to a unique identifier.               </Description>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>array.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Codabar</Text>
+          <Description>This command will scan a Codabar barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_codabar.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Code11</Text>
+          <Description>Scans a barcode of type Code11. </Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_code11.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Code128</Text>
+          <Description>Scans a Code128 type barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_code128.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Code2of5</Text>
+          <Description>Scans a barcode of type Code 2of 5</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_code2of5.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Code 39</Text>
+          <Description>Scans a barcode of type Code 39.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_code39.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Code93</Text>
+          <Description>Scans a barcode of type Code93. </Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_code93.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Datamatrix</Text>
+          <Description>This command will allow you to mark a Datamatrix barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_datamatrix.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.QRCode</Text>
+          <Description>This command will allow you to mark a QR Code barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_qr.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Ean</Text>
+          <Description>This command allows you to Scan an Ean type barcode.  </Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_EAN.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Msi</Text>
+          <Description>This command allows you to scan an MSI type barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_msi.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Upca</Text>
+          <Description>This command allows you to scan an UPCA type barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_upca.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Barcodes.Upce</Text>
+          <Description>This command allows you to scan an UPCE type barcode.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_upce.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Hatch Style</Text>
+          <Description>Hatching is used to fill shapes, text and barcodes with shaded patterns. Hatch style refers to the pattern.</Description>
+          <NodeIcon>Enumeration</NodeIcon>
+          <HelpLink>barcode_hatchStyle.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Barcodes</Text>
+      <Description>A Barcode is an optical, machine readable representation of data. Barcodes can be divided in to Linear (1D) and 2 Dimensional</Description>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Barcodes.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.MoveTo</Text>
+              <Description>Moves the beam position to the given location.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_moveTo.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Arc</Text>
+              <Description>Draws an arc according to the given.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_arc.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Barcode</Text>
+              <Description>This command will scan any of the supported barcode types.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_barcode.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Box</Text>
+              <Description>Marks a box, according to the given </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_box.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Circle</Text>
+              <Description>Marks a circle according to the given parameters.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_circle.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Dot</Text>
+              <Description>Marks a dot according to the given parameters. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_dot.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Line</Text>
+              <Description>Marks a two dimensional line from one point to another. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_line.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Line 3D</Text>
+              <Description>Marks a three dimensional line from one point to another.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_line3D.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Polyline 3D</Text>
+              <Description>Scans a three dimensional Polyline. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_polyline 3D.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Text</Text>
+              <Description>This command allows you to scan horizontal or ring text. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_text.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Spiral</Text>
+              <Description>This command allows you to scan spiral.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_spiral.htm</HelpLink>
+            </HelpTreeNode>
+          </Children>
+          <Text>Geometric Commands</Text>
+          <NodeIcon>Library</NodeIcon>
+          <HelpLink>GeometricCommands.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Rotate</Text>
+              <Description>Rotates the selected vector image to a specified angle. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_rotate.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.SaveTransform</Text>
+              <Description>This command will save a the current transformation matrix state for later retrieval. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_savetransform.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.LoadTransform</Text>
+              <Description>This command will load a state, which has been already saved.</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_LoadTransform.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Scale</Text>
+              <Description>This command will enlarge or shrink a shape by a specified factor, keeping the proportions of the image the same after scaling. </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_scale.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.Translate</Text>
+              <Description>Changes the matrices of the image by the specified </Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_translate.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.RotateRealtime</Text>
+              <Description>Immediately rotates the image</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_rotaterealtime.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.TranslateRealtime</Text>
+              <Description>Immediately translates the image</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_translaterealtime.htm</HelpLink>
+            </HelpTreeNode>
+            <HelpTreeNode>
+              <Children />
+              <Text>Image.RealTimeTransformEnabled</Text>
+              <Description>Enable real time transform</Description>
+              <NodeIcon>Function</NodeIcon>
+              <HelpLink>image_transformenabled.htm</HelpLink>
+            </HelpTreeNode>
+          </Children>
+          <Text>Transform Commands</Text>
+          <NodeIcon>Library</NodeIcon>
+          <HelpLink>Transform Commands.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Image</Text>
+      <Description>Provides commands to scan text and shapes such as Arcs, Circles, Polylines, Barcodes and the like. It also provides commands to transform the shapes. </Description>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>image.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Text.Arc</Text>
+          <Description>Creates and returns a ring text object.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>text_arc.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Text.Horizontal</Text>
+          <Description>Creates and returns a horizontal text object.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>text_horizontal.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Text</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>text.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.OpenComPort</Text>
+          <Description>This command will opens the specified communication Port. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_openComPort.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.PreloadJob</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_PreloadJob.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.PreloadVectorImage</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_PreloadVectorImage.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.WaitForIO</Text>
+          <Description>Wait for the digital port value to be set.  </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_waitforio.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.WriteAnalog</Text>
+          <Description>Commands the analog output port to a new value.  </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_WriteAnalog.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.WriteDigital</Text>
+          <Description>Commands the digital output port to a new value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_writedigital.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.ReadPin</Text>
+          <Description>Returns the state of the pin as a boolean value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_ReadPin.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Io.ReadPort</Text>
+          <Description>Returns the state of the port as an integer value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>io_ReadPort.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Io</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Io.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>File.OpenBinaryFile</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>file_OpenBinaryFile.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>File.OpenTextFile</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>file_OpenTextFile.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>File.Delete</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>file_Delete.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>File</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>File.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Directory.Create</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>directory_Create.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Directory.GetFiles</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>directory_GetFiles.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Directory.GetDirectories</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>directory_GetDirectories.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Directory.Delete</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>directory_Delete.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Directory</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Directory.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Events.CreateWaitEvent</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>events_CreateWaitEvent.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Events.CreateNotifyEvent</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>events_CreateNotifyEvent.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Events.CreateIOEvent</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>events_CreateIoEvent.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Events</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Events.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.Sleep</Text>
+          <Description>Stops the execution of FPGA commands for a specified period of microseconds.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>laser_sleep.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.WaitForEnd</Text>
+          <Description>Blocks the script execution, until the laser has finished processing the instructions it has received. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>laser_waitforend.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.JumpSpeed</Text>
+          <Description>Set the jump speed of the laser.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_JumpSpeed.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.MarkSpeed</Text>
+          <Description>Sets the speed during marking.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_MarkSpeed.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.JumpDelay</Text>
+          <Description>Set the delay used at the end of a jump command.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_JumpDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.MarkDelay</Text>
+          <Description>Set the delay used at the end of a series of marks.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_MarkDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.PolyDelay</Text>
+          <Description> A polygon delay is a delay automatically  inserted between two marking segments</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_PolyDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.LaserOnDelay</Text>
+          <Description>The Laser On Delay can be used to prevent burn-in effects at the start of a vector.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laserOnDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.LaserOffDelay</Text>
+          <Description>The Laser Off Delay can be used to prevent The Laser Off Delay can be used to prevent The Laser Off Delay can be used to prevent burn-in effects at the end of a vector.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laserOffDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.PipeLineDelay</Text>
+          <Description>Set the time that all laser signals are time shifted relative to the issuance of galvo position commands. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laserPipeLineDelay.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.Power</Text>
+          <Description>Set the power level of the laser. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_power.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.Frequency</Text>
+          <Description>The Frequency method can be used to set or change the Laser's frequency. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_Frequency.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.DutyCycle</Text>
+          <Description>Laser.DutyCycle methods can be used to change the percentage of the DutyCycle</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_DutyCycle1.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.WobbleEnabled</Text>
+          <Description>Enables or disables the wobble function. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_WobbleEnabled.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.WobbleThickness</Text>
+          <Description>Sets the Wobble thickness.</Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_WobbleThickness.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.WobbleOverlap</Text>
+          <Description>Sets the wobble overlap percentage. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_WobbleOverlap.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.VariPolyDelayFlag</Text>
+          <Description>Set if using variable polygon delay values. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_VariPolyDelayFlag.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.On</Text>
+          <Description>Set if using variable polygon delay values. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>laser_On.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.Off</Text>
+          <Description>Set if using variable polygon delay values. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>laser_Off.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.SetVelocityCompensation</Text>
+          <Description>Set if using variable polygon delay values. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>laser_SetVelocityCompensation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.Timer</Text>
+          <Description>Set if using variable polygon delay values. </Description>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>laser_Timer.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.PointerEnable</Text>
+          <Description>Enable laser pointer.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>Laser_PointerEnable.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Laser.PointerDisable</Text>
+          <Description>Disable laser pointer</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>Laser_PointerDisable.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Laser</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Laser.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Abs</Text>
+          <Description>Return the absolute, or non-negative value, of a given value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_abs.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Acos</Text>
+          <Description>Return the inverse cosine.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_acos.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Asin</Text>
+          <Description>Returns the inverse sine of the given value</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_asin.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Atan</Text>
+          <Description>Return the inverse tangent.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_atan.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Atan2</Text>
+          <Description>Return the radian angle whose tangent is the quotient of the two specified numbers.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_atan2.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Ceil</Text>
+          <Description>Returns the nearest integer above a given value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_ceil.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Cos</Text>
+          <Description>Return the cosine for a given value in radians.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_cos.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Deg</Text>
+          <Description>Converts radians to degrees. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_deg.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Exp</Text>
+          <Description>Returns e raised to the specified power.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_exp.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Floor</Text>
+          <Description>Returns the integer number less than the given value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_floor.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Fmod</Text>
+          <Description>Returns the remainder of the division of x by y that rounds the quotient towards zero. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_fmod.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Log</Text>
+          <Description>Returns the natural logarithm (log base e) of a value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_log.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Log10</Text>
+          <Description>Return the base 10 logarithm of a given number. The number must be positive.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_log10.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Max</Text>
+          <Description>Return the maximum value from a variable length list of arguments.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_max.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Min</Text>
+          <Description>Return the minimum value from a variable length list of arguments.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_min.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Pow</Text>
+          <Description>Raises the first parameter to the power of the second parameter and returns the result. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_pow.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Rad</Text>
+          <Description>Convert degrees to radians.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_rad.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Random</Text>
+          <Description>Generate a random number.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_random.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Sin</Text>
+          <Description>Return the sine value for a given value in radians.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_sin.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Sqrt</Text>
+          <Description>Return the square root of a given number. Only non-negative arguments are allowed.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_sqrt.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Tan</Text>
+          <Description>Return the tangent value for a given value in radians.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_tan.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.Round</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>math_Round.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Math.PI</Text>
+          <Description>Ratio of the circumference of a circle to its diameter</Description>
+          <NodeIcon>Constant</NodeIcon>
+          <HelpLink>math_pi.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Math</Text>
+      <Description />
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Math.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.CalFactor</Text>
+          <Description>Relates laser positioning bits to motion encoder counts.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_calFactor.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.Direction</Text>
+          <Description>MOTF orientation and direction in degrees.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_Direction.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.Initialize</Text>
+          <Description>Initializes On-the-fly marking settings.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_initialize.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.Mode</Text>
+          <Description>Defines how Motf position information is derived.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_mode.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.ResetTracking</Text>
+          <Description>Reset all counters used in the MOTF model. This command will reset MotfCount, MotfSnapShot and MotfOffset to zero. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_ResetTracking.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.StartTracking</Text>
+          <Description>Start Mark-on-the-fly (Motf) tracking.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_StartTracking.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.StopTrackingAndJump</Text>
+          <Description>Stop MOTF compensation.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_StopTrackingAndJump.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.TriggerOnIO</Text>
+          <Description>MOTF can be triggered by an external signal. This command will wait for a trigger condition to be met. It will then restart counting.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_TriggerOnIo.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.WaitForCount</Text>
+          <Description>Wait for scaled HW encoder counter to reach or exceed a specified value. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_waitforcount.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.WaitForDistance</Text>
+          <Description>This command will wait for a distance (in user units) to reach or exceed a specific value.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_WaitForDistance.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.WaitForTriggerCount</Text>
+          <Description>Wait for the trigger condition to be satisfied and then the count to be met or exceeded. When the wait completes, the hardware trigger is automatically reset and monitoring of the next part in initiated. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_WaitForTriggerCount.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.WaitForTriggerDistance</Text>
+          <Description>Wait for the trigger to be satisfied and then the count to be met or exceeded. The distance is expressed in scaled encoder counts.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf_WaitForTriggerDistance.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.EnableLaserRegulation</Text>
+          <Description />
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf.EnableLaserRegulation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.DisableLaserRegulation</Text>
+          <Description />
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf.DisableLaserRegulation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.EnableSpeedRegulation</Text>
+          <Description />
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf.EnableSpeedRegulation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Motf.DisableSpeedRegulation</Text>
+          <Description />
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>motf.DisableSpeedRegulation.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Motf</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>MOTF(Mark%20on%20the%20fly).htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Network.OpenTcpSocket</Text>
+          <Description>Connects to the TCP server with the specified IP/Host name and Port. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>network_openTcpSocket.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Network</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>network.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Stopwatch.Start</Text>
+          <Description>Starts the stopwatch. This will start recording the time .</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>StopWatch_Start.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Stopwatch.Pause</Text>
+          <Description>Pauses recording the time.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>StopWatch_pause.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Stopwatch.Resume</Text>
+          <Description>Resumes recording the time of an operation, which has been paused.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>StopWatch_Resume.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Stopwatch.Time</Text>
+          <Description>Reports the elapsed time in milliseconds.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>StopWatch_Time.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Stopwatch</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>stopwatch.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.Flush</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_Flush.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.ScriptingVersion</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_ScriptingVersion.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.DeviceType</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_DeviceType.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.IsStandAlone</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_IsStandAlone.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.ReceiveCommand</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_ReceiveCommand.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.ReceiveCommandAsync</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_ReceiveCommandAsync.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.SendCommand</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_SendCommand.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.SetActiveCorrectionTable</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>system_SetActiveCorrectionTable.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.EnableZCompensation</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>System.EnableZCompensation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.DisableZCompensation</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>System.DisableZCompensation.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>System.Abort</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>System_Abort.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>System</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Sytem.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.BAnd</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitBAnd.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.BOr</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitBOr.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.BNot</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitBNot.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.BXor</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitBXor.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.ShiftLeft</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitLShift.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.ShiftRight</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitRShift.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.RotateLeft</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitRotateLeft.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.RotateRight</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitRotateRight.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.GetBit</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitGetBit.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.SetBit</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitSetBit.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.ToggleEndianness16</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitToggleEndianness16.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitOp.ToggleEndianness32</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitToggleEndianness32.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>BitOp</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>BitOperation.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.ToShort</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_ToShort.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.ToInt</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_ToInt.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.ToFloat</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_ToFloat.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.ToDouble</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_ToDouble.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.GetBytesFromShort</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_GetBytesFromShort.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.GetBytesFromInt</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_GetBytesFromInt.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.GetBytesFromFloat</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_GetBytesFromFloat.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>BitConverter.GetBytesFromDouble</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>bitCon_GetBytesFromDouble.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>BitConverter</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>BitConverter.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.CharacterAt</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strCharacterAt.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Concat</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strConcat.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.EndsWith</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strEndsWith.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.GetBytes</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strGetBytes.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.IndexOf</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strIndexOf.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.LastIndexOf</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strLastIndexOf.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Length</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strLength.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Replace</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strReplace.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Split</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strSplit.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.StartsWith</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strStartsWith.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Substring</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strSubString.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.ToHexString</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strToHexString.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.ToLower</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strToLower.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.ToUpper</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strToUpper.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Trim</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strTrim.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.TrimLeft</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strTrimLeft.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.TrimRight</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strTrimRight.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>String.Format</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>strFormat.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>String</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>String.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>ScanAll</Text>
+          <Description>Scans all the images in a particular project. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>scanall.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>ScanImage</Text>
+          <Description>Scans a specified image. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>scan_image.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>DateTime</Text>
+          <Description>This command will get the current date on the EC1000 card.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>date_time.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Report</Text>
+          <Description>Displays any message which is generated, on the Output window. </Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>report.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Sleep</Text>
+          <Description>Freezes the script execution for a specified number of milliseconds and then continue execution.</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>sleep.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>SetUnits</Text>
+          <Description>Changes the active units of script</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>setUnits.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>SetAngleUnits</Text>
+          <Description>Changes the active angle units of the script</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>setAngleUnits.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Error</Text>
+          <Description>Stops executing the script and displays the specified error</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>error.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>ToNumber</Text>
+          <Description>Converts to a number if possible</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>tonumber.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>ToString</Text>
+          <Description>Converts to a string</Description>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>toString.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Global Functions</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>GlobalFunctions.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>for</Text>
+          <Description>The "for" loop is a programming statement, which allows a command to be executed repeatedly, till a certain condition is fulfilled. </Description>
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>for.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>repeat</Text>
+          <Description />
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>repeat.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>break</Text>
+          <Description />
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>break.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>if</Text>
+          <Description>A function is a complete and independent program, which is used (or invoked) by the main program or other subprograms.</Description>
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>if.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>while</Text>
+          <Description>A function is a complete and independent program, which is used (or invoked) by the main program or other subprograms.</Description>
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>while.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>function</Text>
+          <Description>A function is a complete and independent program, which is used (or invoked) by the main program or other subprograms.</Description>
+          <NodeIcon>Category</NodeIcon>
+          <HelpLink>functions.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Control Structures</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>ControlStructures.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Interlocks.MasterEnable</Text>
+          <NodeIcon>Field</NodeIcon>
+          <HelpLink>Interlocks_MasterEnable.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Interlocks.Enable</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>Interlocks_Enable.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Interlocks.AssertOnCurrentFlow</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>Interlocks_AssertOnCurrentFlow.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Interlocks.SetInterlockHandler</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>Interlocks_SetInterlockHandler.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Interlocks</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>Interlocks.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Shapes.Spiral</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>shapes_spiral.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Shapes</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>shapes.htm</HelpLink>
+    </HelpTreeNode>
+    <HelpTreeNode>
+      <Children>
+        <HelpTreeNode>
+          <Children />
+          <Text>Smd.MessageBox</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>smd_MessageBox.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Smd.CreateInputBox</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>smd_CreateInputBox.htm</HelpLink>
+        </HelpTreeNode>
+        <HelpTreeNode>
+          <Children />
+          <Text>Smd.ClearOutputWindow</Text>
+          <NodeIcon>Function</NodeIcon>
+          <HelpLink>smd_ClearOutputWindow.htm</HelpLink>
+        </HelpTreeNode>
+      </Children>
+      <Text>Smd</Text>
+      <NodeIcon>Library</NodeIcon>
+      <HelpLink>smd.htm</HelpLink>
+    </HelpTreeNode>
+  </Children>
+  <Text>ScanScript Commands</Text>
+  <NodeIcon>Library</NodeIcon>
+  <HelpLink>ScanScript%20Commands.htm</HelpLink>
+</HelpTreeNode>
