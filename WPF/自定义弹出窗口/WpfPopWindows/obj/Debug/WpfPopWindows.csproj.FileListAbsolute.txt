@@ -18,7 +18,6 @@ D:\csCode\WpfPopWindows\WpfPopWindows\obj\Debug\WpfPopWindows.pdb
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\bin\Debug\WpfPopWindows.exe.config
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\bin\Debug\WpfPopWindows.exe
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\bin\Debug\WpfPopWindows.pdb
-D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\MainWindow.g.cs
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\PopWindow.g.cs
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\App.g.cs
@@ -32,3 +31,6 @@ D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.csp
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.exe
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.pdb
+D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\WpfPopWindows.csprojAssemblyReference.cache
+D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\FindWindow.g.cs
+D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\obj\Debug\FindWindow.baml

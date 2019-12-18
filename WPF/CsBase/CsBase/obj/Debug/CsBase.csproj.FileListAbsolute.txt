@@ -13,4 +13,5 @@ D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.exe
 D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.pdb
 D:\代码库\WPF\CsBase\CsBase\bin\Debug\System.Data.SQLite.dll
-D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.csprojAssemblyReference.cache
+D:\代码库\WPF\CsBase\CsBase\obj\Debug\CsBase.csproj.CopyComplete

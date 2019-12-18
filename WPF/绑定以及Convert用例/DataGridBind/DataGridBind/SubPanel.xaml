@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="DataGridBind.SubPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DataGridBind"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="1000" d:DesignWidth="1700" Background="#FF474747">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Width" Value="100"/>
+                <Setter Property="Margin" Value="3"/>
+            </Style>
+            <Style TargetType="Button" BasedOn="{StaticResource BlackOrangeButton}">
+                <Setter Property="Width" Value="100"/>
+                <Setter Property="Margin" Value="3"/>
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Width" Value="100"/>
+                <Setter Property="Margin" Value="3"/>
+            </Style>
+            <Style TargetType="GroupBox" BasedOn="{StaticResource GroupBoxHeaderBase}">
+                <Setter Property="Foreground" Value="Cyan"/>
+                <Setter Property="Background" Value="#FF272727"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="BorderBrush" Value="LightGray"/>
+            </Style>
+            <Style TargetType="DataGrid">
+                <Setter Property="CanUserAddRows" Value="False"/>
+                <Setter Property="CanUserDeleteRows" Value="False"/>
+                <Setter Property="CanUserReorderColumns" Value="False"/>
+                <Setter Property="CanUserResizeColumns" Value="False"/>
+                <Setter Property="CanUserResizeRows" Value="False"/>
+                <Setter Property="CanUserSortColumns" Value="False"/>
+                <Setter Property="AutoGenerateColumns" Value="False"/>
+                <Setter Property="HeadersVisibility" Value="Column"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="SelectionMode" Value="Single"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalScrollBarVisibility" Value="Disabled"/>
+            </Style>
+            <Style TargetType="DataGridColumnHeader">
+                <Setter Property="Foreground" Value="#FF01FFFF"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+                <Setter Property="Background" Value="#FF272727"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+            <Style TargetType="DataGridRow">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="SteelBlue"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            <Style TargetType="DataGridCell">
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="DataGridCell">
+                            <Grid Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="14"/>
+                <Style.Triggers>
+                    <Trigger Property="IsSelected" Value="True">
+                        <Setter Property="Background" Value="SteelBlue"/>
+                        <Setter Property="Foreground" Value="White"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            <Style TargetType="TabControl" BasedOn="{StaticResource TabControlS_Base}"/>
+            <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="{x:Static SystemColors.HighlightColor}"/>
+            <ObjectDataProvider x:Key="CuttingModeTypeEnum" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                    <x:Type Type="local:CuttingMode"/>
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <UniformGrid Name="ungFunctions" Columns="4" HorizontalAlignment="Left" Grid.ColumnSpan="2">
+            <Button x:Name="btnAdd" Content="增加"/>
+            <Button x:Name="btnDelete" Content="删除"/>
+            <Button x:Name="btnDeleteAll" Content="全部删除"/>
+        </UniformGrid>
+        <DataGrid Grid.Row="1" Name="dgvRecipeItems" IsReadOnly="False" ColumnWidth="*" ItemsSource="{Binding}"  Margin="0,0,0,199.76" >
+            <DataGrid.Columns>
+                <DataGridComboBoxColumn Header="CuttingMode" SelectedItemBinding="{Binding CutMode}" 
+                                            ItemsSource="{Binding Source={StaticResource CuttingModeTypeEnum}}"/>
+                <DataGridTextColumn Header="OffsetX:" Binding="{Binding OffsetX, StringFormat=F4}"/>
+                <DataGridTextColumn Header="OffsetY" Binding="{Binding OffsetY, StringFormat=F4}"/>
+                <DataGridTextColumn Header="StartX" Binding="{Binding StartX, StringFormat=F4}"/>
+                <DataGridTextColumn Header="EndX" Binding="{Binding EndX, StringFormat=F4}"/>
+                <DataGridTextColumn Header="Power" Binding="{Binding Power,  StringFormat=F4}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

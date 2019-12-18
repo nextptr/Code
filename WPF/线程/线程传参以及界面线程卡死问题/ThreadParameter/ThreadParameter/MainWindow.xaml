@@ -1,0 +1,19 @@
+﻿<Window x:Class="ThreadParameter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreadParameter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="400">
+    <UniformGrid Columns="5">
+        <TextBox  Text="123" Name="txt_num1" VerticalContentAlignment="Center"/>
+        <TextBlock  Text="+" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox  Text="456" Name="txt_num2" VerticalContentAlignment="Center"/>
+        <Button   Name="btn_add" Content="=" VerticalContentAlignment="Center"/>
+        <UniformGrid Rows="2">
+            <Label Name="lab_main"/>
+            <Label Name="lab_sub"/>
+        </UniformGrid>
+    </UniformGrid>
+</Window>

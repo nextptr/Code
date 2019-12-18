@@ -29,4 +29,4 @@ D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.c
 D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.exe
 D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.pdb
-D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\visual及命中测试\WpfVisual\WpfVisual\obj\Debug\WpfVisual.csprojAssemblyReference.cache

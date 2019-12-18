@@ -13,9 +13,11 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Button Name="btnPop" Click="btnPop_Click" Content="弹出窗口"/>
-        <Label FontSize="40" Content="主窗口" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Name="btnFindPop" Content="发现并弹出窗口" Grid.Column="1"/>
+        <Label FontSize="40" Content="主窗口" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Window>

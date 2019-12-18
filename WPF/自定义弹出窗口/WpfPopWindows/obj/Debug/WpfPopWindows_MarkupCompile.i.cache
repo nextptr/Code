@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\代码库\WPF\自定义弹出窗口\WpfPopWindows\App.xaml
-2-1784129621
+3-1297136064
 
-10861514077
+13-217951058
 131569487696
-MainWindow.xaml;PopWindow.xaml;
+FindWindow.xaml;MainWindow.xaml;PopWindow.xaml;
 
-True
+False
 

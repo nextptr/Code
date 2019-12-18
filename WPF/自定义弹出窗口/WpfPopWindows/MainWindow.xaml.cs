@@ -25,6 +25,21 @@ namespace WpfPopWindows
         public MainWindow()
         {
             InitializeComponent();
+            btnFindPop.Click += (s, v) =>
+            {
+                IntPtr ptr = WpfWindow.FindWindow("FindWindow");
+                if (ptr != IntPtr.Zero)
+                {
+                    Window w = WpfWindow.FromHwnd(ptr);
+                    w.WindowState = WindowState.Normal;
+                }
+                else
+                {
+                    FindWindow w = new FindWindow();
+                    w.Owner = Application.Current.MainWindow;
+                    w.Show();
+                }
+            };
         }
 
         private void btnPop_Click(object sender, RoutedEventArgs e)

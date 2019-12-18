@@ -1,0 +1,15 @@
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.csprojAssemblyReference.cache
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\App.g.cs
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter_MarkupCompile.cache
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter_MarkupCompile.lref
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\bin\Debug\ThreadParameter.exe.config
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\bin\Debug\ThreadParameter.exe
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\bin\Debug\ThreadParameter.pdb
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\MainWindow.baml
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.g.resources
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.Properties.Resources.resources
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.csproj.GenerateResource.cache
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.exe
+D:\代码库\WPF\线程\线程传参\ThreadParameter\ThreadParameter\obj\Debug\ThreadParameter.pdb
