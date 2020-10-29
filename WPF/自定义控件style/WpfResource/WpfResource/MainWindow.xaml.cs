@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfResource.Resource;
 
 namespace WpfResource
 {
@@ -23,6 +24,11 @@ namespace WpfResource
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RadioButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

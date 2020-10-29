@@ -1,0 +1,11 @@
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\OmronGateway.dll
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\OmronGateway.pdb
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\CIPCompolet64.dll
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\CIPCompoletProxyLib.dll
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\CIPCompoletProxyServer.exe
+D:\代码库\WPF\PlcDemo\OmronGateway\bin\Debug\CIPCompoletProxyServer.exe.config
+D:\代码库\WPF\PlcDemo\OmronGateway\obj\Debug\OmronGateway.csprojAssemblyReference.cache
+D:\代码库\WPF\PlcDemo\OmronGateway\obj\Debug\OmronGateway.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\PlcDemo\OmronGateway\obj\Debug\OmronGateway.csproj.CopyComplete
+D:\代码库\WPF\PlcDemo\OmronGateway\obj\Debug\OmronGateway.dll
+D:\代码库\WPF\PlcDemo\OmronGateway\obj\Debug\OmronGateway.pdb

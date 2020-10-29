@@ -1,0 +1,5 @@
+D:\代码库\WPF\SocketDemo\Test\WPFSocketClient\Bus.Sockets\bin\Debug\Bus.Sockets.dll
+D:\代码库\WPF\SocketDemo\Test\WPFSocketClient\Bus.Sockets\bin\Debug\Bus.Sockets.pdb
+D:\代码库\WPF\SocketDemo\Test\WPFSocketClient\Bus.Sockets\obj\Debug\Bus.Sockets.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\SocketDemo\Test\WPFSocketClient\Bus.Sockets\obj\Debug\Bus.Sockets.dll
+D:\代码库\WPF\SocketDemo\Test\WPFSocketClient\Bus.Sockets\obj\Debug\Bus.Sockets.pdb

@@ -1,0 +1,10 @@
+D:\代码库\WPF\PlcDemo\AcsController\bin\Debug\AcsController.dll
+D:\代码库\WPF\PlcDemo\AcsController\bin\Debug\AcsController.pdb
+D:\代码库\WPF\PlcDemo\AcsController\bin\Debug\ACS.SPiiPlusNET.dll
+D:\代码库\WPF\PlcDemo\AcsController\bin\Debug\Exceptions.dll
+D:\代码库\WPF\PlcDemo\AcsController\bin\Debug\Exceptions.pdb
+D:\代码库\WPF\PlcDemo\AcsController\obj\Debug\AcsController.csprojAssemblyReference.cache
+D:\代码库\WPF\PlcDemo\AcsController\obj\Debug\AcsController.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\PlcDemo\AcsController\obj\Debug\AcsController.csproj.CopyComplete
+D:\代码库\WPF\PlcDemo\AcsController\obj\Debug\AcsController.dll
+D:\代码库\WPF\PlcDemo\AcsController\obj\Debug\AcsController.pdb

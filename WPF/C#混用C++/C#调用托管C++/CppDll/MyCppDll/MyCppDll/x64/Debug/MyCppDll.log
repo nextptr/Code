@@ -1,0 +1,28 @@
+﻿  stdafx.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+  CPPDLL.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(5): warning C4273: “CppClass::CppClass”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(13): note: 参见“{ctor}”的前一个定义
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(9): warning C4273: “CppClass::~CppClass”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(14): note: 参见“{dtor}”的前一个定义
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(13): warning C4273: “CppClass::Add”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(15): note: 参见“Add”的前一个定义
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(17): warning C4273: “CppClass::Min”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(16): note: 参见“Min”的前一个定义
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(21): warning C4273: “CppClass::Mut”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(17): note: 参见“Mut”的前一个定义
+d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.cpp(25): warning C4273: “CppClass::Sub”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\c#调用托管c++\cppdll\mycppdll\mycppdll\cppdll.h(18): note: 参见“Sub”的前一个定义
+  dllmain.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+  MyCppDll.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+  正在生成代码...
+D:\代码库\WPF\C#混用C++\C#调用托管C++\CppDll\MyCppDll\MyCppDll\dllmain.cpp : warning C4747: 调用托管“DllMain”: 托管代码可能未运行在加载程序锁下，包括 DLL 入口点和从 DLL 入口点访问到的调用
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+  CPPDLL.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
+  CPPDLL.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+    正在创建库 D:\代码库\WPF\C#混用C++\C#调用托管C++\CppDll\MyCppDll\x64\Debug\MyCppDll.lib 和对象 D:\代码库\WPF\C#混用C++\C#调用托管C++\CppDll\MyCppDll\x64\Debug\MyCppDll.exp
+  MyCppDll.vcxproj -> D:\代码库\WPF\C#混用C++\C#调用托管C++\CppDll\MyCppDll\x64\Debug\MyCppDll.dll

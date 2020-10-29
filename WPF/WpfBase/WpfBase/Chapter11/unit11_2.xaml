@@ -79,20 +79,136 @@
             </Style.Triggers>
         </Style>
     </UserControl.Resources>
-    <UniformGrid Columns="2">
-        <GroupBox Header="简单触发器">
-            <StackPanel>
-                <Button Content="普通按钮" Padding="5" Margin="5" FontSize="18"/>
-                <Button Content="普通触发器按钮1" Style="{StaticResource BigFontButtonStyle}"/>
-                <Button Content="普通触发器按钮2" Style="{StaticResource BigFontButtonStyle}"/>
-                <Button Content="普通触发器按钮3" Style="{StaticResource BigFontButtonStyle}"/>
-                <Button Content="多重触发器按钮1" Style="{StaticResource MulitBigFontButtonStyle}"/>
-                <Button Content="多重触发器按钮2" Style="{StaticResource MulitBigFontButtonStyle}"/>
-                <Button Content="多重触发器按钮3" Style="{StaticResource MulitBigFontButtonStyle}"/>
-            </StackPanel>
-        </GroupBox>
-        <GroupBox Header="事件触发器">
-            <Label Content=" 事件触发器" Style="{StaticResource EventButtonStyle}" />
-        </GroupBox>
-    </UniformGrid>
+    <TabControl TabStripPlacement="Bottom">
+        <TabItem>
+            <TabItem.Header>
+                <Label Content="触发器分类" FontSize="17" FontWeight="Bold"/>
+            </TabItem.Header>
+            <!--博客<https://www.cnblogs.com/hayasi/p/7102451.html>-->
+            <UniformGrid Rows="2" Columns="2">
+                <GroupBox Header="trigger">
+                    <Button Content="ButtonTrigger" Margin="3">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Foreground" Value="Red"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </GroupBox>
+                <GroupBox Header="DataTrigger">
+                    <StackPanel Orientation="Vertical">
+                        <ToggleButton Name="btn_tog" Content="红字" />
+                        <TextBlock TextWrapping="WrapWithOverflow" Text="DataTrigger是通过绑定来关联。所以DataTrigger一般用于写另一个控件上的属性在当前控件的触发效果" Margin="3">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsChecked,ElementName=btn_tog}" Value="True">
+                                            <Setter Property="Foreground" Value="Red"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Eventtrigger">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock TextWrapping="WrapWithOverflow"  Text="Eventtrigger一般用于动画效果的处理,表示当前某个事件发生后要触发">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <EventTrigger RoutedEvent="MouseEnter">
+                                            <EventTrigger.Actions>
+                                                <BeginStoryboard>
+                                                    <Storyboard>
+                                                        <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize" To="30"/>
+                                                    </Storyboard>
+                                                </BeginStoryboard>
+                                            </EventTrigger.Actions>
+                                        </EventTrigger>
+                                        <EventTrigger RoutedEvent="MouseLeave">
+                                            <EventTrigger.Actions>
+                                                <BeginStoryboard>
+                                                    <Storyboard>
+                                                        <DoubleAnimation Duration="0:0:0.800" Storyboard.TargetProperty="FontSize" To="18"/>
+                                                    </Storyboard>
+                                                </BeginStoryboard>
+                                            </EventTrigger.Actions>
+                                        </EventTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </StackPanel>
+                </GroupBox>
+                <UniformGrid Rows="2">
+                    <GroupBox Header="MultiTrigger">
+                        <TextBlock Text="I am MultiTrigger">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="IsEnabled" Value="True" />
+                                                <Condition Property="IsMouseOver" Value="True" />
+                                            </MultiTrigger.Conditions>
+                                            <Setter Property="Background" Value="#4d4d4d" />
+                                        </MultiTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+
+                    </GroupBox>
+                    <GroupBox Header="MultiDataTrigger">
+                        <StackPanel Orientation="Vertical">
+                            <ToggleButton Name="btn_red" Content="变红"/>
+                            <TextBlock Text="I am MultiDataTrigger">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding IsChecked,ElementName=btn_red}" Value="True" />
+                                                    <Condition Binding="{Binding IsMouseOver,RelativeSource={RelativeSource Self} }" Value="True" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="Foreground" Value="Red" />
+                                            </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+
+                        </StackPanel>
+                    </GroupBox>
+
+                </UniformGrid>
+            </UniformGrid>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Label Content="简单触发器" FontSize="17" FontWeight="Bold"/>
+            </TabItem.Header>
+            <UniformGrid Columns="2">
+                <GroupBox Header="简单触发器">
+                    <StackPanel>
+                        <Button Content="普通按钮" Padding="5" Margin="5" FontSize="18"/>
+                        <Button Content="普通触发器按钮1" Style="{StaticResource BigFontButtonStyle}"/>
+                        <Button Content="普通触发器按钮2" Style="{StaticResource BigFontButtonStyle}"/>
+                        <Button Content="普通触发器按钮3" Style="{StaticResource BigFontButtonStyle}"/>
+                        <Button Content="多重触发器按钮1" Style="{StaticResource MulitBigFontButtonStyle}"/>
+                        <Button Content="多重触发器按钮2" Style="{StaticResource MulitBigFontButtonStyle}"/>
+                        <Button Content="多重触发器按钮3" Style="{StaticResource MulitBigFontButtonStyle}"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="事件触发器">
+                    <Label Content=" 事件触发器" Style="{StaticResource EventButtonStyle}" />
+                </GroupBox>
+            </UniformGrid>
+        </TabItem>
+    </TabControl>
 </UserControl>

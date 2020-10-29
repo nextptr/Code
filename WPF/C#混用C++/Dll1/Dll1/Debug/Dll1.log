@@ -6,19 +6,19 @@ c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找
 c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
   mydll.cpp
 c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
-c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.cpp(5): warning C4273: “ADD”: dll 链接不一致
-  c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.h(10): note: 参见“ADD”的前一个定义
-c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.cpp(9): warning C4273: “MIN”: dll 链接不一致
-  c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.h(11): note: 参见“MIN”的前一个定义
-c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.cpp(13): warning C4273: “MUL”: dll 链接不一致
-  c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.h(12): note: 参见“MUL”的前一个定义
-c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.cpp(17): warning C4273: “SUB”: dll 链接不一致
-  c:\users\matthew\desktop\c#混用c++\dll1\dll1\mydll.h(13): note: 参见“SUB”的前一个定义
+d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.cpp(5): warning C4273: “ADD”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.h(10): note: 参见“ADD”的前一个定义
+d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.cpp(9): warning C4273: “MIN”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.h(11): note: 参见“MIN”的前一个定义
+d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.cpp(13): warning C4273: “MUL”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.h(12): note: 参见“MUL”的前一个定义
+d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.cpp(17): warning C4273: “SUB”: dll 链接不一致
+  d:\代码库\wpf\c#混用c++\dll1\dll1\mydll.h(13): note: 参见“SUB”的前一个定义
   正在生成代码...
-C:\Users\Matthew\Desktop\C#混用C++\Dll1\Dll1\dllmain.cpp : warning C4747: 调用托管“_DllMain@12”: 托管代码可能未运行在加载程序锁下，包括 DLL 入口点和从 DLL 入口点访问到的调用
+D:\代码库\WPF\C#混用C++\Dll1\Dll1\dllmain.cpp : warning C4747: 调用托管“_DllMain@12”: 托管代码可能未运行在加载程序锁下，包括 DLL 入口点和从 DLL 入口点访问到的调用
   .NETFramework,Version=v4.0.AssemblyAttributes.cpp
 c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
   Dll1.obj :托管的代码存在时 /DEBUG:FASTLINK 不受支持；正在重新启动与 /DEBUG:FULL 的链接
   Dll1.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
-    正在创建库 C:\Users\Matthew\Desktop\C#混用C++\Dll1\Debug\Dll1.lib 和对象 C:\Users\Matthew\Desktop\C#混用C++\Dll1\Debug\Dll1.exp
-  Dll1.vcxproj -> C:\Users\Matthew\Desktop\C#混用C++\Dll1\Debug\Dll1.dll
+    正在创建库 D:\代码库\WPF\C#混用C++\Dll1\Debug\Dll1.lib 和对象 D:\代码库\WPF\C#混用C++\Dll1\Debug\Dll1.exp
+  Dll1.vcxproj -> D:\代码库\WPF\C#混用C++\Dll1\Debug\Dll1.dll

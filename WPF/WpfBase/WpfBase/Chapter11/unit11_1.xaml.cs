@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -34,9 +35,18 @@ namespace WpfBase.Chapter11
         {
             InitializeComponent();
             this.Tag = "第十一章样式和行为#样式";
-
-
             btn_dst.Style = (Style)btn_ori.FindResource("BigFontButtonStyle");
+            this.Loaded += Unit11_1_Loaded;
+        }
+
+        Thread _thread = null;
+
+        private void Unit11_1_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (IsVisible)
+            {
+                start();
+            }
         }
 
         private void element_MouseEnter(object sender, MouseEventArgs e)
@@ -46,6 +56,44 @@ namespace WpfBase.Chapter11
         private void element_MouseLeave(object sender, MouseEventArgs e)
         {
             ((TextBlock)sender).Background = null;
+        }
+
+        int click = 0;
+        private void read()
+        {
+            while (IsVisible)
+            {
+                click++;
+                click = click % 2;
+                this.Dispatcher.Invoke(new Action(() =>
+                {
+                    btn_bord.Tag = click;
+                    btn_back.Tag = click;
+                    if (click == 1)
+                    {
+                        btn_backrg.IsEnabled = true;
+                    }
+                    else
+                    {
+                        btn_backrg.IsEnabled = false;
+                    }
+                    btn_backrg1.Tag = click.ToString();
+                    btn_backrg2.Tag = click.ToString();
+                }));
+                Thread.Sleep(1000);
+            }
+            _thread = null;
+        }
+        private void start()
+        {
+            if (IsVisible)
+            {
+                _thread = null;
+                _thread = new Thread(read);
+                _thread.SetApartmentState(ApartmentState.STA);
+                _thread.IsBackground = true;
+                _thread.Start();
+            }
         }
     }
 }

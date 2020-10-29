@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{DCF6FF05-389F-4759-9C07-0783D727774B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maxwell.LaserCutter.Controls.FanBlade", "Maxwell.LaserCutter.Controls.FanBlade\Maxwell.LaserCutter.Controls.FanBlade.csproj", "{30763410-F508-499C-A84F-18DFB340D181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Debug|x64.ActiveCfg = Debug|x64
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Debug|x64.Build.0 = Debug|x64
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Release|x64.ActiveCfg = Release|x64
+		{DCF6FF05-389F-4759-9C07-0783D727774B}.Release|x64.Build.0 = Release|x64
+		{30763410-F508-499C-A84F-18DFB340D181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30763410-F508-499C-A84F-18DFB340D181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30763410-F508-499C-A84F-18DFB340D181}.Debug|x64.ActiveCfg = Debug|x64
+		{30763410-F508-499C-A84F-18DFB340D181}.Debug|x64.Build.0 = Debug|x64
+		{30763410-F508-499C-A84F-18DFB340D181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30763410-F508-499C-A84F-18DFB340D181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30763410-F508-499C-A84F-18DFB340D181}.Release|x64.ActiveCfg = Release|x64
+		{30763410-F508-499C-A84F-18DFB340D181}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79FDDB39-8E76-44A9-96BB-6DCA7C34F4D8}
+	EndGlobalSection
+EndGlobal

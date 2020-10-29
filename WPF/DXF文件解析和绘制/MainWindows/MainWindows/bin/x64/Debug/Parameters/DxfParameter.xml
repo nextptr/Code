@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<DxfParameter>
+  <IParameterItem AssemblyQualifiedName="Parameters.DXF.DxfItem, Parameters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <DxfItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Max_x>0</Max_x>
+      <Max_y>0</Max_y>
+      <RecipeName>占位dxf</RecipeName>
+      <RecipeDate>123</RecipeDate>
+      <RecipePath />
+    </DxfItem>
+  </IParameterItem>
+  <IParameterItem AssemblyQualifiedName="Parameters.DXF.DxfItem, Parameters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <DxfItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Max_x>150.00000000000003</Max_x>
+      <Max_y>150.00000000000003</Max_y>
+      <RecipeName>2020-2-19测试</RecipeName>
+      <RecipeDate>200821 10:22</RecipeDate>
+      <RecipePath>
+        <PATH>
+          <ePathType>Line</ePathType>
+          <PointCount>0</PointCount>
+          <StartX>100</StartX>
+          <StartY>0</StartY>
+          <EndX>100</EndX>
+          <EndY>150</EndY>
+          <CenterX>-0</CenterX>
+          <CenterY>0</CenterY>
+          <DeltaX>-0</DeltaX>
+          <DeltaY>0</DeltaY>
+          <PStartAngle>180</PStartAngle>
+          <PEndAngle>180</PEndAngle>
+          <Radio>0</Radio>
+          <StartAngle>180</StartAngle>
+          <EndAngle>180</EndAngle>
+          <Flag>0</Flag>
+          <throughPoints />
+          <centerPoints />
+          <types />
+        </PATH>
+        <PATH>
+          <ePathType>Line</ePathType>
+          <PointCount>0</PointCount>
+          <StartX>50</StartX>
+          <StartY>0</StartY>
+          <EndX>50</EndX>
+          <EndY>150</EndY>
+          <CenterX>-0</CenterX>
+          <CenterY>0</CenterY>
+          <DeltaX>-0</DeltaX>
+          <DeltaY>0</DeltaY>
+          <PStartAngle>180</PStartAngle>
+          <PEndAngle>180</PEndAngle>
+          <Radio>0</Radio>
+          <StartAngle>180</StartAngle>
+          <EndAngle>180</EndAngle>
+          <Flag>0</Flag>
+          <throughPoints />
+          <centerPoints />
+          <types />
+        </PATH>
+        <PATH>
+          <ePathType>Line</ePathType>
+          <PointCount>0</PointCount>
+          <StartX>150</StartX>
+          <StartY>50</StartY>
+          <EndX>0</EndX>
+          <EndY>50</EndY>
+          <CenterX>-0</CenterX>
+          <CenterY>0</CenterY>
+          <DeltaX>-0</DeltaX>
+          <DeltaY>0</DeltaY>
+          <PStartAngle>180</PStartAngle>
+          <PEndAngle>180</PEndAngle>
+          <Radio>0</Radio>
+          <StartAngle>180</StartAngle>
+          <EndAngle>180</EndAngle>
+          <Flag>0</Flag>
+          <throughPoints />
+          <centerPoints />
+          <types />
+        </PATH>
+        <PATH>
+          <ePathType>Line</ePathType>
+          <PointCount>0</PointCount>
+          <StartX>150</StartX>
+          <StartY>100</StartY>
+          <EndX>0</EndX>
+          <EndY>100</EndY>
+          <CenterX>-0</CenterX>
+          <CenterY>0</CenterY>
+          <DeltaX>-0</DeltaX>
+          <DeltaY>0</DeltaY>
+          <PStartAngle>180</PStartAngle>
+          <PEndAngle>180</PEndAngle>
+          <Radio>0</Radio>
+          <StartAngle>180</StartAngle>
+          <EndAngle>180</EndAngle>
+          <Flag>0</Flag>
+          <throughPoints />
+          <centerPoints />
+          <types />
+        </PATH>
+        <PATH>
+          <ePathType>Lwpolyline</ePathType>
+          <PointCount>0</PointCount>
+          <StartX>225.9925494</StartX>
+          <StartY>61.2943034</StartY>
+          <EndX>225.9925494</EndX>
+          <EndY>61.2943034</EndY>
+          <CenterX>-0</CenterX>
+          <CenterY>0</CenterY>
+          <DeltaX>-0</DeltaX>
+          <DeltaY>0</DeltaY>
+          <PStartAngle>180</PStartAngle>
+          <PEndAngle>180</PEndAngle>
+          <Radio>0</Radio>
+          <StartAngle>180</StartAngle>
+          <EndAngle>180</EndAngle>
+          <Flag>1</Flag>
+          <throughPoints>
+            <Point>
+              <X>2.8421709430404007E-14</X>
+              <Y>150.00000000000003</Y>
+            </Point>
+            <Point>
+              <X>0</X>
+              <Y>2.8421709430404007E-14</Y>
+            </Point>
+            <Point>
+              <X>150</X>
+              <Y>0</Y>
+            </Point>
+            <Point>
+              <X>150.00000000000003</X>
+              <Y>150</Y>
+            </Point>
+            <Point>
+              <X>2.8421709430404007E-14</X>
+              <Y>150.00000000000003</Y>
+            </Point>
+          </throughPoints>
+          <centerPoints>
+            <Point>
+              <X>225.99254940000003</X>
+              <Y>61.29430339999999</Y>
+            </Point>
+            <Point>
+              <X>225.99254940000003</X>
+              <Y>61.29430339999999</Y>
+            </Point>
+            <Point>
+              <X>225.99254940000003</X>
+              <Y>61.29430339999999</Y>
+            </Point>
+            <Point>
+              <X>225.99254940000003</X>
+              <Y>61.29430339999999</Y>
+            </Point>
+            <Point>
+              <X>225.99254940000003</X>
+              <Y>61.29430339999999</Y>
+            </Point>
+          </centerPoints>
+          <types>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </types>
+        </PATH>
+      </RecipePath>
+    </DxfItem>
+  </IParameterItem>
+</DxfParameter>

@@ -1,5 +1,6 @@
 ﻿using Common.ComPort;
 using System.Windows;
+using System;
 
 
 namespace SerialPort
@@ -15,12 +16,33 @@ namespace SerialPort
             InitializeComponent();
             this.Loaded += MainWindow_Loaded;
             this.Closing += MainWindow_Closing;
+            this.btn_AscSend1.Click += Btn_AscSend1_Click;
+            btn_AscSend2.Click += Btn_AscSend2_Click;
 
             connectStatus.DataContext = comSeriaPort;
             btnConnect.Click += BtnConnect_Click;
+            comSeriaPort.ReceiveDataEvent += ComSeriaPort_ReceiveDataEvent;
         }
 
-     
+        private void Btn_AscSend2_Click(object sender, RoutedEventArgs e)
+        {
+            string cmd = txt_AscCommand2.Text + " \r \n";
+            comSeriaPort.SendCommand3(cmd);
+        }
+
+        private void Btn_AscSend1_Click(object sender, RoutedEventArgs e)
+        {
+            string cmd = txt_AscCommand1.Text+" \r \n";
+            comSeriaPort.SendCommand1(cmd);
+        }
+
+        private void ComSeriaPort_ReceiveDataEvent(string s)
+        {
+            this.Dispatcher.Invoke(new Action(() =>
+            {
+                list_text.Items.Add(s);
+            }));
+        }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {

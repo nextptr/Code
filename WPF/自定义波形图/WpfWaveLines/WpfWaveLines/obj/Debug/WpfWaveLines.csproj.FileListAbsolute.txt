@@ -51,4 +51,4 @@ D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveL
 D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveLines.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveLines.exe
 D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveLines.pdb
-D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveLines.csprojResolveAssemblyReference.cache
+D:\代码库\WPF\自定义波形图\WpfWaveLines\WpfWaveLines\obj\Debug\WpfWaveLines.csprojAssemblyReference.cache

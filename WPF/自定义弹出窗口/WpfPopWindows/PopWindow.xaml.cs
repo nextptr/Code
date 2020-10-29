@@ -32,7 +32,8 @@ namespace WpfPopWindows
 
         private void BtnClose_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            DialogResult = false;
+            //this.Close();
         }
 
         private void BtnMin_Click(object sender, RoutedEventArgs e)

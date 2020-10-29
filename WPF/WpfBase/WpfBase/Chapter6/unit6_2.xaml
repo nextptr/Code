@@ -54,6 +54,7 @@
                             </ToolTip>
                         </Button.ToolTip>
                     </Button>
+                    <Button Grid.Row="6" Content="UpDown事件测试" Name="btnUpDown" />
                 </Grid>
                 <common:ListMessagePanel Grid.Column="1" x:Name="ls_event"/>
             </Grid>

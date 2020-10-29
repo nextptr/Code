@@ -7,7 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UniformGrid Columns="2">
-        <Button    Name="btn_pop" VerticalAlignment="Center" HorizontalAlignment="Center" Content="PopWindow" Width="120" Height="40"/>
+        <UniformGrid Rows="2">
+            <Button Name="btn_pop" VerticalAlignment="Center" HorizontalAlignment="Center" Content="PopWindow" Width="120" Height="40"/>
+            <Button Name="btn_popInstance" VerticalAlignment="Center" HorizontalAlignment="Center" Content="PopInstanceWindow" Width="160" Height="40"/>
+
+        </UniformGrid>
         <Grid>
             <ListView  Name="list_view"/>
             <Button    Name="btn_clear" Content="clear" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>

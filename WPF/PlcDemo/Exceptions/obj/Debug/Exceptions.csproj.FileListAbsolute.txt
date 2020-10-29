@@ -1,0 +1,6 @@
+D:\代码库\WPF\PlcDemo\Exceptions\bin\Debug\Exceptions.dll
+D:\代码库\WPF\PlcDemo\Exceptions\bin\Debug\Exceptions.pdb
+D:\代码库\WPF\PlcDemo\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+D:\代码库\WPF\PlcDemo\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\PlcDemo\Exceptions\obj\Debug\Exceptions.dll
+D:\代码库\WPF\PlcDemo\Exceptions\obj\Debug\Exceptions.pdb

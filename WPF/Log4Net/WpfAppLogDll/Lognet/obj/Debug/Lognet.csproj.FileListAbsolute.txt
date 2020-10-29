@@ -1,0 +1,9 @@
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\bin\Debug\Lognet.dll
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\bin\Debug\Lognet.pdb
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\bin\Debug\log4net.dll
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\bin\Debug\log4net.xml
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\obj\Debug\Lognet.csprojAssemblyReference.cache
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\obj\Debug\Lognet.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\obj\Debug\Lognet.csproj.CopyComplete
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\obj\Debug\Lognet.dll
+D:\代码库\WPF\Log4Net\WpfAppLogDll\Lognet\obj\Debug\Lognet.pdb

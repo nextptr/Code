@@ -1,0 +1,12 @@
+D:\代码库\WPF\Common\Common\bin\x64\Debug\Common.dll
+D:\代码库\WPF\Common\Common\bin\x64\Debug\Common.pdb
+D:\代码库\WPF\Common\Common\bin\x64\Debug\ICSharpCode.SharpZipLib.dll
+D:\代码库\WPF\Common\Common\bin\x64\Debug\NPOI.dll
+D:\代码库\WPF\Common\Common\bin\x64\Debug\NPOI.OOXML.dll
+D:\代码库\WPF\Common\Common\bin\x64\Debug\NPOI.OpenXml4Net.dll
+D:\代码库\WPF\Common\Common\bin\x64\Debug\NPOI.OpenXmlFormats.dll
+D:\代码库\WPF\Common\Common\obj\x64\Debug\Common.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\Common\Common\obj\x64\Debug\Common.csproj.CopyComplete
+D:\代码库\WPF\Common\Common\obj\x64\Debug\Common.dll
+D:\代码库\WPF\Common\Common\obj\x64\Debug\Common.pdb
+D:\代码库\WPF\Common\Common\obj\x64\Debug\Common.csprojAssemblyReference.cache

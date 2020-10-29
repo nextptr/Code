@@ -6,7 +6,11 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WpfResource;component/Resource/myDictionary.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/WpfResource;component/Resource/Ficon.xaml"/>
                 <ResourceDictionary Source="/Resource/Button.xaml"/>
+                <ResourceDictionary Source="/Resource/RadioButton.xaml"/>
+                <ResourceDictionary Source="/Resource/Textbox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

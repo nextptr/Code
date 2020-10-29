@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DxfParameter>
+  <IParameterItem AssemblyQualifiedName="Parameters.DXF.DxfItem, Parameters, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <DxfItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Max_x>0</Max_x>
+      <Max_y>0</Max_y>
+      <RecipeName>占位dxf</RecipeName>
+      <RecipeDate>123</RecipeDate>
+      <RecipePath />
+    </DxfItem>
+  </IParameterItem>
+</DxfParameter>

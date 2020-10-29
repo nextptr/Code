@@ -1,0 +1,14 @@
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\bin\x64\Release\WpfApp.exe.config
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\bin\x64\Release\WpfApp.exe
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\bin\x64\Release\WpfApp.pdb
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\MainWindow.g.cs
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\App.g.cs
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp_MarkupCompile.cache
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp_MarkupCompile.lref
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\MainWindow.baml
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.g.resources
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.Properties.Resources.resources
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.csproj.GenerateResource.cache
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.exe
+D:\代码库\WPF\文件处理\WpfApp\WpfApp\obj\x64\Release\WpfApp.pdb

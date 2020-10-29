@@ -4,10 +4,43 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfResource"
+        xmlns:core="clr-namespace:WpfResource.Resource"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <UniformGrid Rows="8" Columns="5">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style TargetType="TextBox" BasedOn="{StaticResource DefaultTextBox}"/>
+            <Style TargetType="{x:Type TextBox}" x:Key="LabelTextBox" BasedOn="{StaticResource DefaultTextBox}">
+                <Setter Property="core:ControlAttachProperty.LabelTemplate" >
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ContentControl">
+                            <Border Width="60" Background="Gray">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="3" Text="{TemplateBinding Content}"></TextBlock>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <UniformGrid Rows="8" Columns="5" Background="DimGray" >
         <Button Content="默认按钮" />
         <Button Content="自定义按钮" Style="{StaticResource SignalButton}"/>
+        <TextBox Width="140" Height="40" Margin="3" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible">333333333333333</TextBox>
+        <TextBox Width="150" Height="30" Margin="3" core:ControlAttachProperty.Watermark="我是水印" core:ControlAttachProperty.CornerRadius="2"></TextBox>
+        <TextBox Width="150" Height="30" Margin="3" IsReadOnly="True" core:ControlAttachProperty.CornerRadius="15" SnapsToDevicePixels="True" >我是只读的</TextBox>
+        <TextBox Width="150" Height="30" Margin="3" IsEnabled="False">IsEnabled="False"</TextBox>
+        <TextBox Width="150" Height="30" core:ControlAttachProperty.Watermark="我是水印"></TextBox>
+        <TextBox Width="150" Height="30" Margin="3" core:ControlAttachProperty.Watermark="请输入姓名" Text="{Binding xyy}"
+                         Style="{StaticResource LabelTextBox}" core:ControlAttachProperty.Label="姓名："></TextBox>
+
+        
+        <RadioButton Style="{StaticResource BoxRadioButton}" GroupName="1" Margin="1">近3天</RadioButton>
+        <RadioButton Style="{StaticResource BoxRadioButton}" GroupName="1" Margin="1">近7天</RadioButton>
+        <RadioButton Style="{StaticResource BoxRadioButton}" GroupName="1" Margin="1">本月</RadioButton>
+        <RadioButton Style="{StaticResource BoxRadioButton}" GroupName="1" Margin="1">自定义</RadioButton>
+        <RadioButton Style="{StaticResource BoxRadioButton}" Click="RadioButton_Click"  Tag="LayoffMotion"       >下料</RadioButton>
+
+
     </UniformGrid>
 </Window>

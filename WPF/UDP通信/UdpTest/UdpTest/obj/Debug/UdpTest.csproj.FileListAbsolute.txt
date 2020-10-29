@@ -26,7 +26,6 @@ D:\代码库\WPF\UDP通信\UdpTest\UdpTest\bin\Debug\UdpTest.exe
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\bin\Debug\UdpTest.pdb
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\bin\Debug\Common.dll
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\bin\Debug\Common.pdb
-D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\Client.g.cs
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\MainWindow.g.cs
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\Server.g.cs
@@ -43,3 +42,5 @@ D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.csproj.GenerateReso
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.exe
 D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.pdb
+D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.csprojAssemblyReference.cache
+D:\代码库\WPF\UDP通信\UdpTest\UdpTest\obj\Debug\UdpTest.csproj.CopyComplete

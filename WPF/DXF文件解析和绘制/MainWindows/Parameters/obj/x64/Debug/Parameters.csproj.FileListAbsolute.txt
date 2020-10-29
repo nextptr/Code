@@ -1,0 +1,11 @@
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Parameters.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Parameters.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Common.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Dxf.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Common.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\bin\x64\Debug\Dxf.pdb
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\obj\x64\Debug\Parameters.csprojAssemblyReference.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\obj\x64\Debug\Parameters.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\obj\x64\Debug\Parameters.csproj.CopyComplete
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\obj\x64\Debug\Parameters.dll
+D:\代码库\WPF\DXF文件解析和绘制\MainWindows\Parameters\obj\x64\Debug\Parameters.pdb

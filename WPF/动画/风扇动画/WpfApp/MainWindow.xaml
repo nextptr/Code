@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:fanblade="clr-namespace:Maxwell.LaserCutter.Controls.FanBlade;assembly=Maxwell.LaserCutter.Controls.FanBlade"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowState="Maximized" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <UniformGrid Columns="9">
+            <TextBlock Text="速度" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <TextBox Name="txt_speed" VerticalContentAlignment="Center"/>
+            <Button Content="重新开始动画"  Name="btn_restart"/>
+            <Button Content="开始动画" Name="btn_start"/>
+            <Button Content="停止动画" Name="btn_stop"/>
+            <Button Content="暂停动画" Name="btn_pause"/>
+            <Button Content="继续动画" Name="btn_resume"/>
+            
+        </UniformGrid>
+        <Grid Name="grid_board" Grid.Row="1"/>
+        <Image Name="image"/>
+    </Grid>
+</Window>

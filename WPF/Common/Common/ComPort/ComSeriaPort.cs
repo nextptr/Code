@@ -88,6 +88,7 @@ namespace Common.ComPort
                 ComDevice.PortName = _comName;
                 ComDevice.BaudRate = _comBaud;
                 ComDevice.DataBits = 8;
+                ComDevice.Parity = Parity.Even;
                 ComDevice.StopBits = (StopBits)Convert.ToInt32(1);
                 ComDevice.DataReceived += ComDevice_DataReceived;
                 ComDevice.Open();
@@ -136,6 +137,57 @@ namespace Common.ComPort
         }
         public void SendCommand(byte[] sendData)
         {
+            if (ComDevice.IsOpen)
+            {
+                try
+                {
+                    ComDevice.Write(sendData, 0, sendData.Length);//发送数据
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("发送失败：" + ex.Message);
+                }
+            }
+        }
+
+        ///发送数据
+        public void SendCommand1(string command)
+        {
+            string strStop = "$"+command;
+            byte[] sendData = null;
+            sendData = Encoding.ASCII.GetBytes(strStop);
+            if (ComDevice.IsOpen)
+            {
+                try
+                {
+                    ComDevice.Write(sendData, 0, sendData.Length);//发送数据
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("发送失败：" + ex.Message);
+                }
+            }
+        }
+        public void SendCommand3(string command)
+        {
+            string strStop = "$" + command;
+            if (ComDevice.IsOpen)
+            {
+                try
+                {
+                    ComDevice.Write(command);//发送数据
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("发送失败：" + ex.Message);
+                }
+            }
+        }
+        public void SendCommand2(string command)
+        {
+            string strStop = '*' + command;
+            byte[] sendData = null;
+            sendData = Encoding.ASCII.GetBytes(strStop.Trim());
             if (ComDevice.IsOpen)
             {
                 try

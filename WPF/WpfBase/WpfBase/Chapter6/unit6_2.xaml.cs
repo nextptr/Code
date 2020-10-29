@@ -27,6 +27,21 @@ namespace WpfBase.Chapter6
             this.Tag = "内容控件";
             btn_Repeat.Click += Btn_Repeat_Click;
             btn_Hover.Click += Btn_Hover_Click;
+
+            btnUpDown.PreviewMouseLeftButtonDown += BtnUpDown_PreviewMouseLeftButtonDown;
+            btnUpDown.PreviewMouseLeftButtonUp += BtnUpDown_PreviewMouseLeftButtonUp;
+
+        }
+
+       
+
+        private void BtnUpDown_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ls_event.AddMsg("btn_Down");
+        }
+        private void BtnUpDown_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            ls_event.AddMsg("btn_Up");
         }
 
         private void Btn_Hover_Click(object sender, RoutedEventArgs e)

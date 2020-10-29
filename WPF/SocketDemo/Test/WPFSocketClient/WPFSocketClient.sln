@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSocketClient", "WPFSocketClient\WPFSocketClient.csproj", "{7EB87E10-D789-40BA-A2A4-25ED29813D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus.Sockets", "Bus.Sockets\Bus.Sockets.csproj", "{6F0D87FB-76F4-491F-BB7E-04B6BF148236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSocketServer", "WPFSocketServer\WPFSocketServer.csproj", "{00F69BC7-AC7D-4D7D-8AB6-2E67CFBFFF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB87E10-D789-40BA-A2A4-25ED29813D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB87E10-D789-40BA-A2A4-25ED29813D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB87E10-D789-40BA-A2A4-25ED29813D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB87E10-D789-40BA-A2A4-25ED29813D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0D87FB-76F4-491F-BB7E-04B6BF148236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0D87FB-76F4-491F-BB7E-04B6BF148236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0D87FB-76F4-491F-BB7E-04B6BF148236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0D87FB-76F4-491F-BB7E-04B6BF148236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F69BC7-AC7D-4D7D-8AB6-2E67CFBFFF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F69BC7-AC7D-4D7D-8AB6-2E67CFBFFF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F69BC7-AC7D-4D7D-8AB6-2E67CFBFFF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F69BC7-AC7D-4D7D-8AB6-2E67CFBFFF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7A34B62-D96A-4CCF-8FCF-B872C0975D7C}
+	EndGlobalSection
+EndGlobal

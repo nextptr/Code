@@ -21,7 +21,7 @@ namespace Common
 
         public _udpServer()
         {
-            serverIp = new IPEndPoint(IPAddress.Any, 8001);
+            serverIp = new IPEndPoint(IPAddress.Any, 10001);
             serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             serverSocket.Bind(serverIp);
             remote = (EndPoint)(new IPEndPoint(IPAddress.Any, 0));

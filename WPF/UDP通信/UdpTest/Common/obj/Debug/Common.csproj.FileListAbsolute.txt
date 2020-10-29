@@ -6,7 +6,7 @@ C:\Users\Matthew\Desktop\UDP通信\UdpTest\Common\obj\Debug\Common.dll
 C:\Users\Matthew\Desktop\UDP通信\UdpTest\Common\obj\Debug\Common.pdb
 D:\代码库\WPF\UDP通信\UdpTest\Common\bin\Debug\Common.dll
 D:\代码库\WPF\UDP通信\UdpTest\Common\bin\Debug\Common.pdb
-D:\代码库\WPF\UDP通信\UdpTest\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\UDP通信\UdpTest\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\UDP通信\UdpTest\Common\obj\Debug\Common.dll
 D:\代码库\WPF\UDP通信\UdpTest\Common\obj\Debug\Common.pdb
+D:\代码库\WPF\UDP通信\UdpTest\Common\obj\Debug\Common.csprojAssemblyReference.cache

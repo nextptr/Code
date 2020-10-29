@@ -72,3 +72,7 @@ D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_1.baml
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.g.cs
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\unit11_2.baml
 D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\WpfBase.csprojAssemblyReference.cache
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter5\InstanceWindow.g.cs
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter5\InstanceWindow.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\Button.baml
+D:\代码库\WPF\WpfBase\WpfBase\obj\Debug\Chapter11\Border.baml

@@ -14,6 +14,8 @@
         <Image Name="imgPanel"/>
         <StackPanel Grid.Column="1" Orientation="Vertical">
             <Button  Name="btnStart" Content="Start" Margin="2" />
+            <Button  Name="btnSave"  Content="Save" Margin="2" />
+            <Button  Name="btnGrph"  Content="draw" Margin="2" />
         </StackPanel>
         
     </Grid>

@@ -50,7 +50,7 @@ namespace WpfPopWindows
                 popWindow.Closed -= PopWindow_Closed;
                 popWindow.Closed += PopWindow_Closed;
                 popWindow.Owner = Application.Current.MainWindow;
-                popWindow.Show();
+                popWindow.ShowDialog();
             }
             else if (!popWindow.IsActive)
             {

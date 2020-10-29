@@ -17,6 +17,22 @@ namespace WpfBase.Chapter5
             this.Tag = "生命周期事件";
             btn_pop.Click += Btn_pop_Click;
             btn_clear.Click += Btn_clear_Click;
+            btn_popInstance.Click += Btn_popInstance_Click;
+            this.Loaded += Unit5_2_Loaded;
+        }
+
+        private void Unit5_2_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (IsVisible)
+            {
+                InstanceWindow.Instance.Loaded += InstanceWindow_Loaded;
+                this.Loaded -= Unit5_2_Loaded;
+            }
+        }
+
+        private void InstanceWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            ddmsg("InstanceWindow_Loaded");
         }
 
 
@@ -125,7 +141,13 @@ namespace WpfBase.Chapter5
             ddmsg("Initialized");
         }
 
-
+        private void Btn_popInstance_Click(object sender, RoutedEventArgs e)
+        {
+            InstanceWindow.Instance.Owner = Application.Current.MainWindow;
+            InstanceWindow.Instance.WindowState = WindowState.Normal;
+            InstanceWindow.Instance.Show();
+            InstanceWindow.Instance.Show();
+        }
         private void Btn_pop_Click(object sender, RoutedEventArgs e)
         {
             PopWindow win = new PopWindow();

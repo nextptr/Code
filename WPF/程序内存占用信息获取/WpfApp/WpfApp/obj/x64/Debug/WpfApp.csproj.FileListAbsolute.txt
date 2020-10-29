@@ -1,0 +1,15 @@
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\bin\x64\Debug\WpfApp.exe.config
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\bin\x64\Debug\WpfApp.exe
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\bin\x64\Debug\WpfApp.pdb
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.csprojAssemblyReference.cache
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\MainWindow.g.cs
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\App.g.cs
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp_MarkupCompile.cache
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp_MarkupCompile.lref
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\MainWindow.baml
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.g.resources
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.Properties.Resources.resources
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.csproj.GenerateResource.cache
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.csproj.CoreCompileInputs.cache
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.exe
+D:\Git代码库\Code\WPF\程序内存占用信息获取\WpfApp\WpfApp\obj\x64\Debug\WpfApp.pdb

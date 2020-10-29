@@ -54,7 +54,7 @@
 
                 </Grid>
             </Border>
-            <Border Grid.Column="1" Margin="1" Name="bord_btn" IsEnabled="False" BorderThickness="5" BorderBrush="DarkGray" >
+            <Border Grid.Column="1" Margin="1" Name="bord_btn" IsEnabled="True" BorderThickness="5" BorderBrush="DarkGray" >
                 <Grid Background="LightGray">
                     <Grid.RowDefinitions>
                         <RowDefinition />

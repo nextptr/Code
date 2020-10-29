@@ -16,7 +16,6 @@ D:\CsTest\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.pdb
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.exe.config
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.exe
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\bin\Debug\WpfWriteableBitmap.pdb
-D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\MainWindow.g.cs
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\App.g.cs
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap_MarkupCompile.cache
@@ -28,3 +27,4 @@ D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csproj.CoreCompileInputs.cache
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.exe
 D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.pdb
+D:\代码库\WPF\wpf位图读写\WpfWriteableBitmap\WpfWriteableBitmap\obj\Debug\WpfWriteableBitmap.csprojAssemblyReference.cache

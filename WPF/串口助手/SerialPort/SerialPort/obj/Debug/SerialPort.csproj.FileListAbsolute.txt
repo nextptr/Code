@@ -1,4 +1,3 @@
-D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csprojResolveAssemblyReference.cache
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\MainWindow.g.cs
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\App.g.cs
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort_MarkupCompile.cache
@@ -15,3 +14,5 @@ D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.g.resou
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.Properties.Resources.resources
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.GenerateResource.Cache
 D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csprojAssemblyReference.cache
+D:\代码库\WPF\串口助手\SerialPort\SerialPort\obj\Debug\SerialPort.csproj.CopyComplete
