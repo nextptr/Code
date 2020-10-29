@@ -1,0 +1,84 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Gui.Common">
+    <ControlTemplate TargetType="TabItem" x:Key="TabItemT_Base">
+        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="{TemplateBinding local:ControlExtentions.CornerRadius}" Background="{TemplateBinding Background}"
+                    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+            <ContentPresenter ContentSource="Header" HorizontalAlignment="Center"
+                              VerticalAlignment="Center" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Margin="{TemplateBinding Padding}"/>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="TabItem" x:Key="TabItemS_Base">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="Width" Value="150"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+        <Setter Property="Template" Value="{StaticResource TabItemT_Base}"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <SolidColorBrush Color="Orange" Opacity="0.3"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="Orange"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="TabControl" x:Key="TabControlS_Base">
+        <Setter Property="Background" Value="#FF484848"/>
+    </Style>
+
+    <Style TargetType="TabItem" x:Key="TabItemS_HoriOrange" BasedOn="{StaticResource TabItemS_Base}"/>
+
+    <Style TargetType="TabItem" x:Key="TabItemS_VertiOrange" BasedOn="{StaticResource TabItemS_Base}">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="71"/>
+    </Style>
+
+    <Style TargetType="TabControl" x:Key="TabControlS_LeftOrange">
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="TabStripPlacement" Value="Left"/>
+        <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_VertiOrange}"/>
+    </Style>
+
+    <Style TargetType="TabControl" x:Key="TabControlS_TopOrange">
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="TabStripPlacement" Value="Top"/>
+        <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_HoriOrange}"/>
+    </Style>
+
+    <Style TargetType="TabControl" x:Key="TabControlS_BottomOrange">
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="TabStripPlacement" Value="Bottom"/>
+        <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_HoriOrange}"/>
+    </Style>
+
+    <Style TargetType="TabControl" x:Key="TabControlS_Orange">
+        <Setter Property="Background" Value="#FF484848"/>
+        <Style.Triggers>
+            <Trigger Property="TabStripPlacement" Value="Top">
+                <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_HoriOrange}"/>
+            </Trigger>
+            <Trigger Property="TabStripPlacement" Value="Bottom">
+                <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_HoriOrange}"/>
+            </Trigger>
+            <Trigger Property="TabStripPlacement" Value="Left">
+                <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_VertiOrange}"/>
+            </Trigger>
+            <Trigger Property="TabStripPlacement" Value="Right">
+                <Setter Property="ItemContainerStyle" Value="{StaticResource TabItemS_VertiOrange}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

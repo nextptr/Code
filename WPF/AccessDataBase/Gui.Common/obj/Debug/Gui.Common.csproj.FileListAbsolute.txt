@@ -1,0 +1,6 @@
+D:\代码库\WPF\AccessDataBase\Gui.Common\bin\Debug\Gui.Common.dll
+D:\代码库\WPF\AccessDataBase\Gui.Common\bin\Debug\Gui.Common.pdb
+D:\代码库\WPF\AccessDataBase\Gui.Common\obj\Debug\Gui.Common.csprojAssemblyReference.cache
+D:\代码库\WPF\AccessDataBase\Gui.Common\obj\Debug\Gui.Common.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\AccessDataBase\Gui.Common\obj\Debug\Gui.Common.dll
+D:\代码库\WPF\AccessDataBase\Gui.Common\obj\Debug\Gui.Common.pdb

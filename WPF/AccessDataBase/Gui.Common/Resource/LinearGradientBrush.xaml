@@ -1,0 +1,64 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Gui.Common.Resource">
+    <LinearGradientBrush x:Key="BrushLG_GlassRed" Opacity="1" StartPoint="0,0" EndPoint="0,1" SpreadMethod="Reflect">
+        <GradientStop Offset="0.0" Color="#F18585"/>
+        <GradientStop Offset="0.25" Color="#FFFF5656"/>
+        <GradientStop Offset="0.5" Color="#D4C50000"/>
+        <GradientStop Offset="0.75" Color="#FFB93535"/>
+        <GradientStop Offset="1" Color="#FFFF8F8F"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BrushLG_GlassGreen" Opacity="1" StartPoint="0,0" EndPoint="0,1" SpreadMethod="Reflect">
+        <GradientStop Offset="0.0" Color="#FF7CF15A"/>
+        <GradientStop Offset="0.25" Color="#FF55D326"/>
+        <GradientStop Offset="0.5" Color="#D428FF07"/>
+        <GradientStop Offset="0.75" Color="#FF55D326"/>
+        <GradientStop Offset="1" Color="#FF7CF15A"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BrushLG_GlassOrange" Opacity="1" StartPoint="0,0" EndPoint="0,1" SpreadMethod="Reflect">
+        <GradientStop Offset="0.0" Color="#FFFFD588"/>
+        <GradientStop Offset="0.25" Color="#FFFFBF4B"/>
+        <GradientStop Offset="0.5" Color="Orange"/>
+        <GradientStop Offset="0.75" Color="#FFFFBF4B"/>
+        <GradientStop Offset="1" Color="#FFFFD588"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BrushLG_Black1" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF606060" Offset="0.1"/>
+        <GradientStop Color="#FF484848" Offset="0.2"/>
+        <GradientStop Color="#FF363636" Offset="0.4"/>
+        <GradientStop Color="#FF303030" Offset="0.5"/>
+        <GradientStop Color="#FF363636" Offset="0.6"/>
+        <GradientStop Color="#FF484848" Offset="0.8"/>
+        <GradientStop Color="#FF606060" Offset="0.9"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BrushLG_Cyan1" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF8AEFF3" Offset="0.2"/>
+        <GradientStop Color="#FF3EFFEE" Offset="0.4"/>
+        <GradientStop Color="Cyan" Offset="0.5"/>
+        <GradientStop Color="#FF3EFFEE" Offset="0.6"/>
+        <GradientStop Color="#FF8AEFF3" Offset="0.8"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BrushLG_Orange1" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FFFFBA88" Offset="0.1"/>
+        <GradientStop Color="#FFFFC35A" Offset="0.2"/>
+        <GradientStop Color="#FFFFD95A" Offset="0.4"/>
+        <GradientStop Color="#FFFFE330" Offset="0.5"/>
+        <GradientStop Color="#FFFFD95A" Offset="0.6"/>
+        <GradientStop Color="#FFFFC35A" Offset="0.8"/>
+        <GradientStop Color="#FFFFBA88" Offset="0.9"/>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="BrushLG_Blue1" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="#FF00B9FF" Offset="0.1"/>
+        <GradientStop Color="#FF5CD2FF" Offset="0.2"/>
+        <GradientStop Color="#FF77DAFF" Offset="0.4"/>
+        <GradientStop Color="#FF77DAFF" Offset="0.5"/>
+        <GradientStop Color="#FF77DAFF" Offset="0.6"/>
+        <GradientStop Color="#FF51FFF7" Offset="0.8"/>
+        <GradientStop Color="#FF67FFF1" Offset="0.9"/>
+    </LinearGradientBrush>
+</ResourceDictionary>

@@ -1,0 +1,166 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Gui.Common">
+
+    <Style TargetType="CheckBox" x:Key="CheckBoxS_2_5DRightWrongOrange">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Border Name="border" Background="Black" Padding="0,0,3,3">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="{TemplateBinding local:ControlExtentions.CornerRadius}" Background="{TemplateBinding Background}"
+                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                            <Grid HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Path Name="PART_Right" Data="M0,5 L5,10 L15,0" Stroke="Green" StrokeThickness="1" HorizontalAlignment="Center"/>
+                                <Path Name="PART_Wrong" Visibility="Collapsed" Data="M0,0 L15,15 M0,15 L15,0" Stroke="Red" StrokeThickness="2" HorizontalAlignment="Center"/>
+                                <ContentPresenter ContentSource="Content" Grid.Column="1" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                  ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                            </Grid>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0,0,2,2"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="PART_Wrong" Property="Visibility" Value="Visible"/>
+                            <Setter TargetName="PART_Right" Property="Visibility" Value="Collapsed"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate TargetType="CheckBox" x:Key="CheckBoxT_Base">
+        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                CornerRadius="{TemplateBinding local:ControlExtentions.CornerRadius}" Background="{TemplateBinding Background}"
+                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+            <Grid HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Ellipse Margin="{TemplateBinding local:ControlExtentions.LogoMargin}" Width="{TemplateBinding local:ControlExtentions.LogoWidth}" Height="{TemplateBinding local:ControlExtentions.LogoHeight}"
+                         Grid.RowSpan="2" Fill="{TemplateBinding local:ControlExtentions.Logo}"/>
+                <ContentPresenter ContentSource="Content" Grid.Column="1" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                  ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                <ContentPresenter Grid.Column="1" Grid.Row="1" Content="{TemplateBinding local:ControlExtentions.SecondLineContent}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+            </Grid>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="CheckBox" x:Key="CheckBoxS_Base">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Margin" Value="1"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Margin" Value="1"/>
+        <Setter Property="Template" Value="{StaticResource CheckBoxT_Base}"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{Binding Path=(local:ControlExtentions.MouseOverBackground),RelativeSource={RelativeSource Self}}"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="{Binding Path=(local:ControlExtentions.PressedBackground),RelativeSource={RelativeSource Self}}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.5"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="CheckBox" x:Key="CheckBoxS_OnOffOrange">
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="IsThreeState" Value="False"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Border BorderBrush="Orange" BorderThickness="1">
+                        <UniformGrid Rows="1">
+                            <Label Name="txtOn" Content="ON" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                     VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" Foreground="{TemplateBinding Foreground}" Style="{x:Null}"/>
+                            <Label Name="txtOff" Content="OFF" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                     VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" Foreground="{TemplateBinding Foreground}" Style="{x:Null}"/>
+                        </UniformGrid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="txtOn" Property="Background" Value="Orange"/>
+                            <Setter TargetName="txtOn" Property="IsHitTestVisible" Value="False"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="txtOff" Property="Background" Value="Orange"/>
+                            <Setter TargetName="txtOff" Property="IsHitTestVisible" Value="False"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="CheckBox" BasedOn="{StaticResource CheckBoxS_Base}" x:Key="CheckBoxS_RightWrongOrange">
+        <Setter Property="local:ControlExtentions.LogoWidth" Value="15"/>
+        <Setter Property="local:ControlExtentions.LogoHeight" Value="15"/>
+        <Setter Property="local:ControlExtentions.LogoMargin" Value="0,0,5,0"/>
+        <Setter Property="local:ControlExtentions.Logo">
+            <Setter.Value>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <Path Data="M0,0 L15,15 M0,15 L15,0" Stroke="Red" StrokeThickness="3"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="local:ControlExtentions.MouseOverBackground">
+            <Setter.Value>
+                <SolidColorBrush Color="Orange" Opacity="0.3"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="local:ControlExtentions.PressedBackground" Value="Orange"/>
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="local:ControlExtentions.Logo">
+                    <Setter.Value>
+                        <VisualBrush>
+                            <VisualBrush.Visual>
+                                <Path Data="M0,5 L5,10 L15,0" Stroke="Green" StrokeThickness="1"/>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Background" Value="Orange"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

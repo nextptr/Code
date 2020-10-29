@@ -1,0 +1,74 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Maxwell.LaserCutter.UIVisual;component/Resource/LinearGradientBrush.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="DataGridCell" x:Key="DataGridCellS_SteelBlue">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type DataGridCell}">
+                    <Grid Background="{TemplateBinding Background}">
+                        <ContentPresenter Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="SteelBlue"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DataGridRowS_SteelBlue" TargetType="DataGridRow">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="SteelBlue"/>
+            </Trigger>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="SteelBlue"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DataGridColumnHeaderS_BlackCyan" TargetType="DataGridColumnHeader">
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BrushLG_Orange1}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Background" Value="{StaticResource BrushLG_Black1}"/>
+        <Setter Property="Foreground" Value="{StaticResource BrushLG_Cyan1}"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Padding" Value="5,1"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+    <Style TargetType="DataGridCell" BasedOn="{StaticResource DataGridCellS_SteelBlue}" x:Key="DataGridCellS_LeftSteelBlue">
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    </Style>
+
+    <Style TargetType="DataGridCell" BasedOn="{StaticResource DataGridCellS_SteelBlue}" x:Key="DataGridCellS_RightSteelBlue">
+        <Setter Property="HorizontalContentAlignment" Value="Right"/>
+    </Style>
+
+    <Style TargetType="DataGridCell" BasedOn="{StaticResource DataGridCellS_SteelBlue}" x:Key="DataGridCellS_Strech">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+    </Style>
+
+    <Style TargetType="DataGrid" x:Key="DataGridS_BlackCyan">
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="CanUserAddRows" Value="False"/>
+        <Setter Property="CanUserDeleteRows" Value="False"/>
+        <Setter Property="CanUserReorderColumns" Value="False"/>
+        <Setter Property="CanUserResizeColumns" Value="False"/>
+        <Setter Property="CanUserResizeRows" Value="False"/>
+        <Setter Property="HeadersVisibility" Value="Column"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="ColumnHeaderStyle" Value="{StaticResource DataGridColumnHeaderS_BlackCyan}"/>
+        <Setter Property="CellStyle" Value="{StaticResource DataGridCellS_SteelBlue}"/>
+    </Style>
+</ResourceDictionary>

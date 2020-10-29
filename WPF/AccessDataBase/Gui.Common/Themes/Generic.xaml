@@ -1,0 +1,19 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Gui.Common">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Gui.Common;component/Resource/LinearGradientBrush.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/ButtonS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/CheckBoxS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/DataGridS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/GroupBoxS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/LabelS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/RadioButtonS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/TabControlS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/TextBoxS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Style/WindowS.xaml"/>
+        <ResourceDictionary Source="/Gui.Common;component/Themes/NumberKeyboard.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

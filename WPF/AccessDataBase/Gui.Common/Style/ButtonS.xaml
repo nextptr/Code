@@ -1,0 +1,299 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Gui.Common">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Gui.Common;component/Resource/LinearGradientBrush.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="Button" x:Key="ButtonS_2_5D">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" Background="Black" Padding="0,0,3,3">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0,0,2,2"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ButtonS_1D">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="Orange"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Opacity" Value="0.5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ButtonS_2_5DOrange">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" Background="Black" Padding="0,0,3,3">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{StaticResource BrushLG_GlassOrange}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0"/>
+                            <Setter Property="Background" Value="Orange"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ButtonS_2_5DSignal">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Name="border" Background="Black" Padding="0,0,3,3">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0,0,2,2"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Padding" Value="0"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Value}" Value="True">
+                <Setter Property="Background" Value="{StaticResource BrushLG_GlassGreen}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Value}" Value="True">
+                <Setter Property="Background" Value="{StaticResource BrushLG_GlassRed}"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Value}" Value="{x:Null}">
+                <DataTrigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard AutoReverse="True">
+                            <ColorAnimation From="LawnGreen" To="Green" AutoReverse="True" RepeatBehavior="Forever" Storyboard.TargetProperty="Background.Color"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </DataTrigger.EnterActions>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <ControlTemplate TargetType="Button" x:Key="ButtonT_Base">
+        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                CornerRadius="{TemplateBinding local:ControlExtentions.CornerRadius}" Background="{TemplateBinding Background}"
+                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+            <Grid HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Ellipse Margin="{TemplateBinding local:ControlExtentions.LogoMargin}" Width="{TemplateBinding local:ControlExtentions.LogoWidth}" Height="{TemplateBinding local:ControlExtentions.LogoHeight}"
+                         Grid.RowSpan="2" Fill="{TemplateBinding local:ControlExtentions.Logo}"/>
+                <ContentPresenter ContentSource="Content" Grid.Column="1" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                  ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                <ContentPresenter Grid.Column="1" Grid.Row="1" Content="{TemplateBinding local:ControlExtentions.SecondLineContent}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+            </Grid>
+        </Border>
+    </ControlTemplate>
+
+    <ControlTemplate TargetType="Button" x:Key="ButtonT_LogoBase">
+        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"
+                CornerRadius="{TemplateBinding local:ControlExtentions.CornerRadius}"  Background="{TemplateBinding Background}" 
+                SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+            <Grid HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Margin="{TemplateBinding local:ControlExtentions.LogoMargin}" Width="{TemplateBinding local:ControlExtentions.LogoWidth}" Height="{TemplateBinding local:ControlExtentions.LogoHeight}"
+                         Grid.RowSpan="2" Background="{TemplateBinding local:ControlExtentions.Logo}"/>
+                <ContentPresenter ContentSource="Content" Grid.Column="1" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                  ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                <ContentPresenter Grid.Column="1" Grid.Row="1" Content="{TemplateBinding local:ControlExtentions.SecondLineContent}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+            </Grid>
+        </Border>
+    </ControlTemplate>
+
+    <Style TargetType="Button" x:Key="ButtonS_CommonOrange">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Margin" Value="1"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template" Value="{StaticResource ButtonT_Base}"/>
+        <Style.Triggers>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="{Binding Path=(local:ControlExtentions.PressedBackground),RelativeSource={RelativeSource Self}}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.5"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ButtonS_Base">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="#FF484848"/>
+        <Setter Property="BorderBrush" Value="Orange"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Margin" Value="1"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template" Value="{StaticResource ButtonT_Base}"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{Binding Path=(local:ControlExtentions.MouseOverBackground),RelativeSource={RelativeSource Self}}"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="{Binding Path=(local:ControlExtentions.PressedBackground),RelativeSource={RelativeSource Self}}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.5"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource ButtonS_Base}" x:Key="ButtonS_Red">
+        <Setter Property="Background">
+            <Setter.Value>
+                <SolidColorBrush Color="Red" Opacity="0.8"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="local:ControlExtentions.MouseOverBackground" Value="Red"/>
+        <Setter Property="local:ControlExtentions.PressedBackground" Value="Red"/>
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource ButtonS_Base}" x:Key="ButtonS_Orange">
+        <Setter Property="local:ControlExtentions.MouseOverBackground">
+            <Setter.Value>
+                <SolidColorBrush Color="Orange" Opacity="0.3"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="local:ControlExtentions.PressedBackground" Value="Orange"/>
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource ButtonS_Orange}" x:Key="ButtonS_Common"/>
+
+    <!--
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Status}" Value="{x:Null}">
+                <Setter Property="local:ControlExtentions.Logo" Value="Blue"/>
+                <Setter Property="local:ControlExtentions.SecondLineContent" Value="未使用"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Status}" Value="True">
+                <Setter Property="local:ControlExtentions.Logo" Value="Green"/>
+                <Setter Property="local:ControlExtentions.SecondLineContent" Value="On"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Status}" Value="False">
+                <Setter Property="local:ControlExtentions.Logo" Value="Red"/>
+                <Setter Property="local:ControlExtentions.SecondLineContent" Value="Off"/>
+            </DataTrigger>
+        </Style.Triggers>
+    -->
+    <Style TargetType="Button" BasedOn="{StaticResource ButtonS_Orange}" x:Key="ButtonS_SignalOrange">
+        <Setter Property="local:ControlExtentions.LogoWidth" Value="15"/>
+        <Setter Property="local:ControlExtentions.LogoHeight" Value="15"/>
+        <Setter Property="local:ControlExtentions.LogoMargin" Value="0,0,5,0"/>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,2 @@
+D:\代码库\WPF\AccessDataBase\Log\obj\Debug\Log.csprojAssemblyReference.cache
+D:\代码库\WPF\AccessDataBase\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache

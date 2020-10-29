@@ -1,0 +1,15 @@
+D:\代码库\WPF\AccessDataBase\AccessDataBase\bin\Debug\AccessDataBase.exe.config
+D:\代码库\WPF\AccessDataBase\AccessDataBase\bin\Debug\AccessDataBase.exe
+D:\代码库\WPF\AccessDataBase\AccessDataBase\bin\Debug\AccessDataBase.pdb
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.csprojAssemblyReference.cache
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\MainWindow.g.cs
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\App.g.cs
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase_MarkupCompile.cache
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase_MarkupCompile.lref
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\MainWindow.baml
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.g.resources
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.Properties.Resources.resources
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.csproj.GenerateResource.cache
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.csproj.CoreCompileInputs.cache
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.exe
+D:\代码库\WPF\AccessDataBase\AccessDataBase\obj\Debug\AccessDataBase.pdb
